@@ -17,7 +17,7 @@ Table 2. Regional Geodetic Coordinate System
 |1|NAD83(2011)|	2010.0|	USA and North America|
 |2|	NAD83(PA11)|	2010.0|	USA Hawii|
 |3|	NAD83(MA11)|	2010.0|	GUM|
-|4|	NAD83(CSRS)|	2010.0|	CAN|
+|4|	NAD83(CSRS)v7|	2010.0|	CAN|
 |5|	ETRS89(ETRF2010)(2010.0)|	2010.0|	Europe|
 |6|	GDA2020(2020.0)|	2020.0|	AUS|
 |7|	NZGD2000(2000.0)|	2000.0|	NZL|
