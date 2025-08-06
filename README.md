@@ -9,7 +9,7 @@ Table 1. Mountpoints of GEODNET RTK service
 |3|AUTO_ITRF2014|ITRF2014 Geodetic Coordinate System with current epoch|
 |4|AUTO_WGS84<sup>1</sup>|WGS84(G2139) in the middle of the current year (for example, 2025.5 for year 2025, 2024.5 for year 2024)|
 
-The Geodetic Coordinate System of the AUTO will change based on the regions to match the regional Geodetic Coordinate Systems, the currently adopted regional Geodetic Coordinate Systems are listed as below (Table 2). if there is any information which is not accurate, please feedback to GEODNET team. 
+The Geodetic Coordinate System of the AUTO will change based on the regions to match the regional Geodetic Coordinate Systems, the currently adopted regional Geodetic Coordinate Systems are listed as below (Table 2). if there is any information which is not accurate, please feedback to Dr. Yudan Yi (yudan@geodnet.com). 
 
 Table 2. Regional Geodetic Coordinate System
 |#|Geodetic Coordinate System Name|Epoch #|Effective regions|
@@ -39,7 +39,8 @@ Table 2. Regional Geodetic Coordinate System
 |24|	MGRF2020(2020.0)=ITRF2020(2020.0)|	2020.0|	MYS|
 |25|	MTRF2000(2004.0)=ITRF2000(2004.0)|	2004.0|	ARE|
 |26|	SIRGAS2000(2000.4)=ITRF2000(2000.4)	|2000.4|	South America|
-|27|	WGS84(G2139)(20xx.5)<sup>1</sup>|	20xx.5|	Other regions|
+|27|	GGD=ITRF2008(2011.353)|2011.353|	GEO|
+|28|	WGS84(G2139)(20xx.5)<sup>1</sup>|	20xx.5|	Other regions|
 
 <sup>1</sup> The WGS84 is used in AUTO_WGS84, since WGS84 is a global dynamic coordinate system, where the coordinate of the station will change due to the global plate tectonics movement. The WGS84(G2139)(20xx.50) with the middle of current year is adapted to best match the current GPS real-time orbit based on NGS recommendations.  
 <sup>2</sup> GEODNET does not provide RTK service in this region now, can broadcast partnerships’ RTK/VRS service in this region based on user requests.
