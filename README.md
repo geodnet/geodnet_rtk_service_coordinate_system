@@ -8,6 +8,9 @@ Table 1. Mountpoints of GEODNET RTK service
 |2|AUTO_ITRF2020|ITRF2020 Geodetic Coordinate System at current epoch|
 |3|AUTO_ITRF2014|ITRF2014 Geodetic Coordinate System at current epoch|
 |4|AUTO_WGS84|WGS84(G2139) in the middle of the current year (for example, 2025.5 for year 2025, 2024.5 for year 2024)|
+|5|BRDC|Global Ephemeris Data|
+|6|NATRF2020|Test RTK service for NTRAF2020 coordinate frame (only in NA)|
+|7|SIRGAS2000(2026.5)|Test RTK service for SIRGAS2000 coordinate frame in the middle of the current year (for example, 2025.5 for year 2025, 2024.5 for year 2024) (only in SA)|
 
 The Geodetic Coordinate System of the AUTO will change based on the regions to match the regional Geodetic Coordinate Systems, the currently adopted regional Geodetic Coordinate Systems are listed as below (Table 2). if there is any information which is not accurate, please feedback to Dr. Yudan Yi (yudan@geodnet.com). 
 
@@ -18,7 +21,7 @@ Table 2. Regional Geodetic Coordinate System
 |2|	NAD83(PA11)|	2010.0|	USA Hawii|
 |3|	NAD83(MA11)|	2010.0|	GUM|
 |4|	NAD83(CSRS)v7|	2010.0|	CAN|
-|5|	ETRS89(ETRF2010)(2010.0)|	2010.0|	Europe|
+|5|	ETRS89(ETRF2000)(2010.0)|	2010.0|	Europe|
 |6|	GDA2020(2020.0)|	2020.0|	AUS|
 |7|	NZGD2000(2000.0)|	2000.0|	NZL|
 |8|	TUREF(2005.0)=ITRF96(2005.0)|	2005.0|	TUR|
