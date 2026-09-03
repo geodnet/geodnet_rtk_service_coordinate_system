@@ -105,16 +105,35 @@ To preserve angles and shapes locally, high-precision surveying strictly utilize
 
 ## 4. Commonly Used Geoid Models
 
-### 4.1 Global Geoid Models
+### 4.1 Global Geoid Models & Accuracy Specifications
 
-Global geopotential models are derived from satellite gravimetry (CHAMP, GRACE, GOCE), satellite altimetry, and global terrestrial gravity databases. They provide continuous vertical coverage worldwide.
+Global geopotential models are derived from satellite gravimetry (CHAMP, GRACE, GOCE), satellite altimetry, and global terrestrial gravity databases. They provide continuous, seamless vertical reference surfaces worldwide.
 
-| Global Model | Publishing Agency | Resolution | Max Degree & Order | Typical Use Cases |
-| :--- | :--- | :---: | :---: | :--- |
-| **EGM2008** | NGA (US National Geospatial-Intelligence Agency) | $2.5' \times 2.5'$ (~4.5 km) | $n,m = 2159$ | **The universal worldwide standard**. Default baseline in drone photogrammetry, hydrography, international GIS, and regions lacking local hybrid geoid models. |
-| **EGM96** | NIMA / NASA GSFC | $15' \times 15'$ (~28 km) | $n,m = 360$ | Legacy global model used in older handheld GPS receivers, military mission planning, and initial SRTM elevation data releases. |
-| **XGM2019e / XGM2020** | TU Munich / ICGEM | $2.0' \times 2.0'$ (~3.7 km) | $n,m = 5399$ | High-degree experimental global model incorporating GOCE satellite gravity and high-resolution topographic density modeling. |
-| **EIGEN-6C4** | GFZ Potsdam / GRGS Toulouse | $2.5' \times 2.5'$ | $n,m = 2190$ | Satellite-terrestrial combined model widely used in scientific geodesy and oceanography. |
+#### Global Geoid Accuracy Comparison
+
+| Global Model | Publishing Agency & Year | Spatial Resolution | Max Degree & Order ($n_{\max}$) | Global Absolute Accuracy (RMS $1\sigma$) | Relative Accuracy (over $10\text{--}50\text{ km}$) | Terrain Sensitivity (Lowland vs Mountainous) | Memory / Storage Profile |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **EGM2008** *(2.5′ Grid)* | NGA / 2008 | $2.5' \times 2.5'$ ($\sim 4.5\text{ km}$) | $n,m = 2159$ | **$\pm 5\text{ to }15\text{ cm}$** | **$1\text{ to }3\text{ cm}$** ($< 1\text{ ppm}$) | • Lowland: $\pm 5\text{ to }10\text{ cm}$<br>• Mountains: $\pm 15\text{ to }30\text{ cm}$ | $\sim 149\text{ MB}$ (`.gtx`) |
+| **EGM2008** *(1.0′ Grid)* | NGA / 2008 | $1.0' \times 1.0'$ ($\sim 1.8\text{ km}$) | $n,m = 2159$ | **$\pm 5\text{ to }12\text{ cm}$** | **$1\text{ to }2\text{ cm}$** | • Lowland: $\pm 5\text{ to }8\text{ cm}$<br>• Mountains: $\pm 12\text{ to }25\text{ cm}$ | $\sim 800\text{ MB}$ (`.tif`) |
+| **NGA EGM96** *(15′ Grid)* | NIMA / NASA 1996 | $15' \times 15'$ ($\sim 28\text{ km}$) | $n,m = 360$ | **$\pm 25\text{ to }50\text{ cm}$** | **$5\text{ to }15\text{ cm}$** | • Lowland: $\pm 20\text{ to }35\text{ cm}$<br>• Mountains: $\pm 50\text{ to }100\text{ cm}$ | $\sim 4.15\text{ MB}$ (`.bin`) |
+| **XGM2020** | TU Munich / ICGEM 2020 | $2.0' \times 2.0'$ ($\sim 3.7\text{ km}$) | $n,m = 5399$ | **$\pm 4\text{ to }10\text{ cm}$** | **$< 1.5\text{ cm}$** | Incorporates full GOCE satellite gradiometry | Scientific format |
+| **EIGEN-6C4** | GFZ / GRGS 2014 | $2.5' \times 2.5'$ ($\sim 4.5\text{ km}$) | $n,m = 2190$ | **$\pm 5\text{ to }12\text{ cm}$** | **$1\text{ to }3\text{ cm}$** | Optimal oceanic altimetry & continent blend | Scientific format |
+
+#### Key Factors Governing Global Geoid Accuracy
+
+1. **Omission Error (High-Frequency Truncation):**  
+   Spherical harmonic expansions truncate at degree $n_{\max}$. The shortest spatial half-wavelength resolved is:
+   $$\frac{\lambda}{2} \approx \frac{20,000\text{ km}}{n_{\max}}$$
+   * For **EGM96** ($n_{\max} = 360$), structures narrower than $\sim 55\text{ km}$ cannot be resolved, contributing $20\text{--}40\text{ cm}$ omission error in rugged topography.
+   * For **EGM2008** ($n_{\max} = 2160$), the spatial resolution is $\sim 9.3\text{ km}$, reducing global omission error to under $5\text{--}10\text{ cm}$.
+
+2. **Commission Error (Data Noise & Gravimetry Gaps):**  
+   Errors propagating from surface gravity anomaly noise, airborne survey biases, and sparse gravity coverage in remote desert, jungle, or oceanic trench regions. In North America and Europe, terrestrial gravity density is dense ($< 5\text{ km}$ spacing), yielding top-tier EGM2008 performance ($\sim 5\text{ cm}$); in parts of central Africa or Antarctica, accuracy softens to $\sim 20\text{--}40\text{ cm}$.
+
+3. **Global Equipotential Datum Offset ($W_0$ vs National Tidal MSL):**  
+   Global models reference an idealized global geopotential value $W_0 = 62,636,856.0\text{ m}^2/\text{s}^2$ (IAG standard). Local vertical datums (such as NAVD88 in the US or ODN in the UK) are referenced to specific historic tide-gauge benchmarks, which differ from global $W_0$ by a permanent datum bias:
+   * **In the United States:** NAVD88 sits approximately **$30\text{ to }50\text{ cm}$** above global $W_0$, creating an apparent constant offset if using pure EGM2008 without hybrid warping.
+   * **Solution:** This is why **hybrid geoid models** (e.g. NOAA GEOID18) are utilized for centimeter-level surveying, warping the gravimetric geoid to match the legal leveled benchmarks.
 
 ---
 
@@ -122,26 +141,26 @@ Global geopotential models are derived from satellite gravimetry (CHAMP, GRACE, 
 
 Hybrid geoid models are gravimetric geoid solutions that have been mathematically warped and fitted to thousands of high-accuracy GNSS/leveling benchmarks across a country. They provide direct centimeter-level conversion between ellipsoidal heights and the official national vertical datum.
 
-| Country / Region | Geoid Model | Official Vertical Datum | Typical Accuracy | Common Grid File Formats | Authority |
-| :--- | :--- | :--- | :---: | :---: | :--- |
-| **United States** | **GEOID18** <br>*(older: GEOID12B, GEOID09)* | **NAVD88** (North American Vertical Datum 1988) | $1.0\text{ to }2.0\text{ cm}$ | `.bin`, `.ggf`, `.gtx` | **NOAA NGS** |
-| **Canada** | **CGG2013a** <br>*(legacy: HTv2.0)* | **CGVD2013** (gravimetric) / **CGVD28** (leveled) | $1.0\text{ to }2.0\text{ cm}$ | `.bin`, `.byn`, `.gtx` | **NRCan CGS** |
-| **United Kingdom** | **OSGM15** | **ODN** (Ordnance Datum Newlyn) | $< 1.0\text{ cm}$ | `.txt`, `.ggf`, `.gtx` | **Ordnance Survey** |
-| **Germany** | **GCG2016** *(German Combined Geoid)* | **DHHN2016** (Normalhöhen) | $0.5\text{ to }1.5\text{ cm}$ | `.gri`, `.asc`, `.gtx` | **BKG / AdV** |
-| **France** | **RAF20** <br>*(older: RAF18, RAC09)* | **IGN69** (Mainland) & **IGN78** (Corsica) | $1.0\text{ cm}$ | `.mnt`, `.gtx`, `.gri` | **IGN France** |
-| **Australia** | **AUSGeoid2020** <br>*(older: AUSGeoid09)* | **AHD** (Australian Height Datum) | $2.0\text{ to }3.0\text{ cm}$ | `.gsb`, `.gtx`, `.txt` | **Geoscience Australia / ICSM** |
-| **New Zealand** | **NZGeoid2016** | **NZVD2016** (New Zealand Vertical Datum 2016) | $1.0\text{ to }2.0\text{ cm}$ | `.gtx`, `.byn`, `.asc` | **LINZ** |
-| **Japan** | **GSIGEO2011** | **Japanese Vertical Datum (Tokyo Peil - T.P.)** | $1.0\text{ to }2.0\text{ cm}$ | `.asc`, `.bin`, `.gtx` | **GSI** |
-| **China** | **CQG2000 / CNGeo2000** | **1985 National Height Datum** (Yellow Sea, Qingdao) | $2.0\text{ to }5.0\text{ cm}$ | `.grd`, `.txt` | **National Geomatics Center of China** |
-| **South Korea** | **KNGeoid18** <br>*(older: KNGeoid14)* | **Incheon Mean Sea Level** | $2.0\text{ cm}$ | `.grd`, `.bin` | **NGII** |
-| **Switzerland** | **CHGeo2004** | **LN02** (Landeshöhennetz 1902) | $1.0\text{ to }2.0\text{ cm}$ | `.bin`, `.grd` | **Swisstopo** |
-| **Netherlands** | **NLGEO2018** | **NAP** (Normaal Amsterdams Peil) | $< 1.0\text{ cm}$ | `.rdnap`, `.gtx` | **Kadaster / NSGI** |
-| **Spain** | **EGM08-REDNAP** | **REDNAP** (Alicante Datum) | $1.5\text{ to }2.5\text{ cm}$ | `.grd`, `.gtx` | **IGN Spain** |
-| **Nordic Region** | **NKG2015** | National Normal Height systems (RH2000, N2000, DVR90) | $1.0\text{ to }2.0\text{ cm}$ | `.gri`, `.gtx` | **Nordic Geodetic Commission (NKG)** |
-| **Mexico** | **GGM10 / GGM20** | **NAVD88 / Red Geodésica Vertical** | $3.0\text{ to }5.0\text{ cm}$ | `.bin`, `.asc` | **INEGI** |
-| **Colombia** | **GEOCOL2004** | **Buenaventura Vertical Datum** | $5.0\text{ cm}$ | `.bin`, `.txt` | **IGAC** |
-| **Brazil** | **MAPGEO2015** | **Imbituba Vertical Datum** | $5.0\text{ to }10.0\text{ cm}$ | `.txt`, `.grd` | **IBGE** |
-| **Europe (Unified)** | **EGG2015 / EVRF2019** | **EVRF2019** (Normaal Amsterdams Peil) | $1.5\text{ to }3.0\text{ cm}$ | `.gri`, `.gtx` | **EUREF / BKG** |
+| Country / Region | Geoid Model | Official Vertical Datum | Typical Accuracy | Memory / Storage Profile | Common Grid File Formats | Authority |
+| :--- | :--- | :--- | :---: | :---: | :---: | :--- |
+| **United States** | **GEOID18** <br>*(older: GEOID12B, GEOID09)* | **NAVD88** (North American Vertical Datum 1988) | $1.0\text{ to }2.0\text{ cm}$ | $\sim 34.3\text{ MB}$ | `.bin`, `.ggf`, `.gtx` | **NOAA NGS** |
+| **Canada** | **CGG2013a** <br>*(legacy: HTv2.0)* | **CGVD2013** (gravimetric) / **CGVD28** (leveled) | $1.0\text{ to }2.0\text{ cm}$ | $\sim 25\text{ to }30\text{ MB}$ | `.bin`, `.byn`, `.gtx` | **NRCan CGS** |
+| **United Kingdom** | **OSGM15** | **ODN** (Ordnance Datum Newlyn) | $< 1.0\text{ cm}$ | $\sim 1.5\text{ to }2.7\text{ MB}$ | `.txt`, `.ggf`, `.gtx` | **Ordnance Survey** |
+| **Germany** | **GCG2016** *(German Combined Geoid)* | **DHHN2016** (Normalhöhen) | $0.5\text{ to }1.5\text{ cm}$ | $\sim 3.0\text{ MB}$ | `.gri`, `.asc`, `.gtx` | **BKG / AdV** |
+| **France** | **RAF20** <br>*(older: RAF18, RAC09)* | **IGN69** (Mainland) & **IGN78** (Corsica) | $1.0\text{ cm}$ | $\sim 340\text{ KB to }640\text{ KB}$ | `.mnt`, `.gtx`, `.gri` | **IGN France** |
+| **Australia** | **AUSGeoid2020** <br>*(older: AUSGeoid09)* | **AHD** (Australian Height Datum) | $2.0\text{ to }3.0\text{ cm}$ | $\sim 15.0\text{ MB}$ | `.gsb`, `.gtx`, `.txt` | **Geoscience Australia / ICSM** |
+| **New Zealand** | **NZGeoid2016** | **NZVD2016** (New Zealand Vertical Datum 2016) | $1.0\text{ to }2.0\text{ cm}$ | $\sim 3.5\text{ MB}$ | `.gtx`, `.byn`, `.asc` | **LINZ** |
+| **Japan** | **GSIGEO2011** | **Japanese Vertical Datum (Tokyo Peil - T.P.)** | $1.0\text{ to }2.0\text{ cm}$ | $\sim 6.0\text{ MB}$ | `.asc`, `.bin`, `.gtx` | **GSI** |
+| **China** | **CQG2000 / CNGeo2000** | **1985 National Height Datum** (Yellow Sea, Qingdao) | $2.0\text{ to }5.0\text{ cm}$ | $\sim 20.0\text{ MB}$ | `.grd`, `.txt` | **National Geomatics Center of China** |
+| **South Korea** | **KNGeoid18** <br>*(older: KNGeoid14)* | **Incheon Mean Sea Level** | $2.0\text{ cm}$ | $\sim 1.2\text{ MB}$ | `.grd`, `.bin` | **NGII** |
+| **Switzerland** | **CHGeo2004** | **LN02** (Landeshöhennetz 1902) | $1.0\text{ to }2.0\text{ cm}$ | $\sim 400\text{ KB}$ | `.bin`, `.grd`, `.gtx` | **Swisstopo** |
+| **Netherlands** | **NLGEO2018** | **NAP** (Normaal Amsterdams Peil) | $< 1.0\text{ cm}$ | $\sim 200\text{ KB}$ | `.rdnap`, `.gtx` | **Kadaster / NSGI** |
+| **Spain** | **EGM08-REDNAP** | **REDNAP** (Alicante Datum) | $1.5\text{ to }2.5\text{ cm}$ | $\sim 3.0\text{ MB}$ | `.grd`, `.gtx` | **IGN Spain** |
+| **Nordic Region** | **NKG2015** | National Normal Height systems (RH2000, N2000, DVR90) | $1.0\text{ to }2.0\text{ cm}$ | $\sim 8.5\text{ MB}$ | `.gri`, `.gtx` | **Nordic Geodetic Commission (NKG)** |
+| **Mexico** | **GGM10 / GGM20** | **NAVD88 / Red Geodésica Vertical** | $3.0\text{ to }5.0\text{ cm}$ | $\sim 12.0\text{ MB}$ | `.bin`, `.asc` | **INEGI** |
+| **Colombia** | **GEOCOL2004** | **Buenaventura Vertical Datum** | $5.0\text{ cm}$ | $\sim 2.5\text{ MB}$ | `.bin`, `.txt` | **IGAC** |
+| **Brazil** | **MAPGEO2015** | **Imbituba Vertical Datum** | $5.0\text{ to }10.0\text{ cm}$ | $\sim 18.0\text{ MB}$ | `.txt`, `.grd` | **IBGE** |
+| **Europe (Unified)** | **EGG2015 / EVRF2019** | **EVRF2019** (Normaal Amsterdams Peil) | $1.5\text{ to }3.0\text{ cm}$ | $\sim 45.0\text{ MB}$ | `.gri`, `.gtx` | **EUREF / BKG** |
 
 ---
 
