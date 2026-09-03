@@ -229,7 +229,7 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 |      -> Standard RTCM3 string displayed/logged by all survey controllers (Trimble, Leica, Carlson) |
 |      -> Payload: "GEOID:N=-17.111m,H=1667.111m,NAVD88,GEOID18"                                    |
 |                                                                                                    |
-|    • Channel B: GEODNET Proprietary RTCM Message (Type 4085)                                       |
+|    • Channel B: GEODNET Proprietary RTCM Message (Type 4054)                                       |
 |      -> Ultra-compact 13-byte binary frame (12-bit station, 20-bit N in mm, 8-bit datum code)      |
 |      -> Direct hardware consumption for auto-leveling, autonomous machines, and GEODNET SDK        |
 +----------------------------------------------------------------------------------------------------+
@@ -249,11 +249,11 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
   * DF140: UTF-8 Text String: `"GEOID:N=+43.802m,H=36.198m,IGN69,RAF18"`
   * CRC-24Q Parity: 24 bits
 
-#### B. GEODNET Proprietary RTCM Message (Type 4085)
-* **Message ID:** Type 4085 (RTCM Proprietary range 4001–4095).
+#### B. GEODNET Proprietary RTCM Message (Type 4054)
+* **Message ID:** Type 4054 (Official GEODNET Assigned Proprietary Message).
 * **Frame Size:** 13 bytes total over the wire (7 bytes payload + 3 bytes header + 3 bytes CRC).
 * **Bit Allocation:**
-  * Message Number: 4085 (12 bits)
+  * Message Number: 4054 (12 bits)
   * Station ID: 12 bits
   * Undulation $N$ in millimeters: signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
   * Vertical Datum ID: 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
