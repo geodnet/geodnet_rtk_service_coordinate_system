@@ -201,7 +201,67 @@ To achieve survey-grade accuracy in both horizontal coordinates and physical ele
 
 ---
 
-## 6. References and Further Reading
+---
+
+## 6. Server-Side RTK Service Geoid Hosting & Real-Time RTCM Broadcast
+
+In traditional RTK operations, rovers are burdened with storing dozens of massive vendor-proprietary geoid files (`.ggf`, `.gem`, `.clg`) and selecting them manually in field controller software.
+
+In the **GEODNET RTK Service architecture**, the server hosts the complete library of precise global and national hybrid geoid models, automatically evaluates the geoid undulation $N$ for the rover's exact coordinates, and broadcasts the solution down to the rover in real time.
+
+```
++----------------------------------------------------------------------------------------------------+
+| 1. Rover connects to GEODNET NTRIP Caster & transmits NMEA GGA (Latitude, Longitude, Height h)     |
++----------------------------------------------------------------------------------------------------+
+                                                  |
+                                                  v
++----------------------------------------------------------------------------------------------------+
+| 2. GEODNET RTK Server evaluates High-Resolution Geoid Multi-Grid Pool (geoid.c / rtcm_geoid.c)     |
+|    • Multi-Grid Pool: 14 loaded models (NOAA GEOID18, OSGM15, RAF18, GCG2016, EGM2008, etc.)       |
+|    • Interpolates Geoid Undulation N with sub-millimeter bilinear precision                        |
+|    • Computes Physical Elevation: H = h - N                                                        |
++----------------------------------------------------------------------------------------------------+
+                                                  |
+                                                  v
++----------------------------------------------------------------------------------------------------+
+| 3. RTCM Real-Time Broadcast to Rover                                                               |
+|    • Channel A: RTCM Type 1029 (Unicode Text Message)                                              |
+|      -> Standard RTCM3 string displayed/logged by all survey controllers (Trimble, Leica, Carlson) |
+|      -> Payload: "GEOID:N=-17.111m,H=1667.111m,NAVD88,GEOID18"                                    |
+|                                                                                                    |
+|    • Channel B: GEODNET Proprietary RTCM Message (Type 4085)                                       |
+|      -> Ultra-compact 13-byte binary frame (12-bit station, 20-bit N in mm, 8-bit datum code)      |
+|      -> Direct hardware consumption for auto-leveling, autonomous machines, and GEODNET SDK        |
++----------------------------------------------------------------------------------------------------+
+```
+
+### 6.1 RTCM Message Formats
+
+#### A. RTCM Type 1029 (Unicode Text String)
+* **Standard:** RTCM 10403.3 Section 3.5.15.
+* **Compatibility:** Supported by virtually all field controllers (Trimble Access, Leica Captivate, SurvCE, FieldGenius, Emlid Reach, CHCNAV LandStar).
+* **Payload Structure:**
+  * DF002: Message Number = 1029 (12 bits)
+  * DF137: Reference Station ID (12 bits)
+  * DF041 / DF042: Epoch time (MJD 16 bits, Seconds of Day 17 bits)
+  * DF138: Number of Characters (7 bits)
+  * DF139: Number of UTF-8 Code Units (8 bits)
+  * DF140: UTF-8 Text String: `"GEOID:N=+43.802m,H=36.198m,IGN69,RAF18"`
+  * CRC-24Q Parity: 24 bits
+
+#### B. GEODNET Proprietary RTCM Message (Type 4085)
+* **Message ID:** Type 4085 (RTCM Proprietary range 4001–4095).
+* **Frame Size:** 13 bytes total over the wire (7 bytes payload + 3 bytes header + 3 bytes CRC).
+* **Bit Allocation:**
+  * Message Number: 4085 (12 bits)
+  * Station ID: 12 bits
+  * Undulation $N$ in millimeters: signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
+  * Vertical Datum ID: 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
+  * CRC-24Q: 24 bits
+
+---
+
+## 7. References and Further Reading
 
 1. **NOAA National Geodetic Survey (NGS):** *The State Plane Coordinate System of 1983*, NOAA Manual NOS NGS 5.
 2. **National Geospatial-Intelligence Agency (NGA):** *The Development of the Joint Defense Mapping Agency/NASA Earth Gravitational Model 1996 (EGM96)* & *Earth Gravitational Model 2008 (EGM2008)*.
@@ -209,3 +269,4 @@ To achieve survey-grade accuracy in both horizontal coordinates and physical ele
 4. **Intergovernmental Committee on Surveying and Mapping (ICSM):** *Geocentric Datum of Australia 2020 Technical Manual*.
 5. **Instituto Geográfico Agustín Codazzi (IGAC):** *Resolución 471 de 2020 y 529 de 2020 - Proyección Cartográfica Única para Colombia (CTM12)*.
 6. **Land Information New Zealand (LINZ):** *New Zealand Geodetic Datum 2000 (NZGD2000) and NZVD2016 Specifications*.
+7. **Radio Technical Commission for Maritime Services (RTCM):** *RTCM Standard 10403.3 for Differential GNSS Services - Version 3*.
