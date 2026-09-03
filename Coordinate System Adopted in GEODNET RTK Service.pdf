@@ -1,342 +1,999 @@
-%PDF-1.4
-%ìåãû ReportLab Generated PDF document (opensource)
+%PDF-1.3
+%‚„œ”
 1 0 obj
 <<
-/F1 2 0 R /F2+0 49 0 R /F3+0 53 0 R /F4 4 0 R
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Count 5
+/Kids [ 3 0 R 17 0 R 19 0 R 21 0 R 25 0 R ]
+/Type /Pages
 >>
 endobj
 3 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (PLANAR_COORDINATE_SYSTEMS_AND_GEOID_MODELS.md)
->> /Border [ 0 0 0 ] /Rect [ 466.4557 411.9906 734.0729 422.1906 ] /Subtype /Link /Type /Annot
+/Annots [ 4 0 R ]
+/Contents 5 0 R
+/MediaBox [ 0 0 841.8898 595.2756 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI
+/Type /Action
+/URI (PLANAR\137COORDINATE\137SYSTEMS\137AND\137GEOID\137MODELS\056md)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 466.4557 411.9906 734.0729 422.1906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/Annots [ 3 0 R ] /Contents 57 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 56 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/Length 10379
 >>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0.835294 0.870588 0.905882 RG
+n
+42.51969 28.34646 m
+799.3701 28.34646 l
+S
+0.376471 0.439216 0.501961 rg
+BT
+1 0 0 1 42.51969 17.00787 Tm
+/F2+0 7 Tf
+8.4 TL
+(GEODNET RTK Service Coordinate Systems) Tj
+T*
+ET
+BT
+1 0 0 1 775.4306 17.00787 Tm
+/F2+0 7 Tf
+8.4 TL
+(Page 1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 48.51969 523.5906 cm
+q
+0.070588 0.231373 0.388235 rg
+BT
+1 0 0 1 0 4 Tm
+/F3+0 22 Tf
+26 TL
+(GEODNET RTK Service Coordinate Systems) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 504.3906 cm
+q
+BT
+1 0 0 1 0 2.7 Tm
+11.2 TL
+0.141176 0.196078 0.278431 rg
+/F3+0 8.5 Tf
+11.2 TL
+(Document status\072) Tj
+/F2+0 8.5 Tf
+11.2 TL
+( Public service reference\054 updated 2026\05509\05503) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 476.9906 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 13.9 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(GEODNET provides global and regional coordinate outputs through NTRIP mountpoints\056 This document records the coordinate frame and coordinate epoch configured by the) Tj
+T*
+(service\056 It also distinguishes a frame transformation from a complete national datum realization\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 438.3906 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 25.1 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(The service outputs Earth\055centered Earth\055fixed or geodetic coordinates with ellipsoidal height\056 It does not by itself supply a country\047s projected mapping grid\054 vertical datum\054) Tj
+T*
+(geoid model\054 cadastral transformation\054 or legal survey procedure\056 Users doing control\054 cadastral\054 legal\054 or other high\055accuracy work should validate the output against the) Tj
+T*
+(responsible national authority\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 410.9906 cm
+q
+0.933333 0.964706 0.980392 rg
+n
+-7 -7 758.8504 36.4 re
+f*
+Q
+q
+BT
+1 0 0 1 0 13.9 Tm
+11.2 TL
+0.141176 0.196078 0.278431 rg
+/F2+0 8.5 Tf
+11.2 TL
+(For a comprehensive technical reference on national planar map projections \050e\056g\056\054 State Plane\054 UTM\054 Lambert\05593\054 Gauss\055Kr\001ger\051 and national hybrid geoid models \050e\056g\056\054) Tj
+T*
+(GEOID18\054 OSGM15\054 GCG2016\054 AUSGeoid2020\051 used in engineering and surveying workflows\054 see ) Tj
+0 0.431373 0.564706 rg
+(Planar Coordinate Systems and Geoid Models Reference Guide) Tj
+0.141176 0.196078 0.278431 rg
+(\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 384.9906 cm
+q
+0 0.431373 0.564706 rg
+BT
+1 0 0 1 0 3 Tm
+/F3+0 13 Tf
+16 TL
+(1\056 Mountpoints) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 218.9906 cm
+q
+0.070588 0.231373 0.388235 rg
+n
+0 160 756.8504 -17.2 re
+f*
+1 1 1 rg
+n
+0 142.8 756.8504 -28.4 re
+f*
+0.952941 0.968627 0.980392 rg
+n
+0 114.4 756.8504 -17.2 re
+f*
+1 1 1 rg
+n
+0 97.2 756.8504 -17.2 re
+f*
+0.952941 0.968627 0.980392 rg
+n
+0 80 756.8504 -17.2 re
+f*
+1 1 1 rg
+n
+0 62.8 756.8504 -17.2 re
+f*
+0.952941 0.968627 0.980392 rg
+n
+0 45.6 756.8504 -28.4 re
+f*
+1 1 1 rg
+n
+0 17.2 756.8504 -17.2 re
+f*
+1 1 1 rg
+q
+1 0 0 1 3 145.8 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F3+0 8.5 Tf
+11.2 TL
+(Mountpoint) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 145.8 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F3+0 8.5 Tf
+11.2 TL
+(Configured output) Tj
+T*
+ET
+Q
+Q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 3 128.6 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(AUTO) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 117.4 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 13.9 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(Selects the regional output in Sections 2 and 3 from the station\047s three\055character country or territory code\054 normally ISO 3166\0551 alpha\0553\056 Legacy) Tj
+T*
+(aliases are also accepted\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 100.2 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(AUTO\137ITRF2020) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 100.2 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(ITRF2020 at the observation epoch\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 83 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(AUTO\137ITRF2014) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 83 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(ITRF2014 at the observation epoch\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 65.8 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(AUTO\137WGS84) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 65.8 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(Legacy WGS84\050G2139\051 output at the midpoint of the observation year\056 See Section 4\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 48.6 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(BRDC) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 48.6 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(Broadcast ephemeris data\073 this is not a coordinate\055frame output\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 31.4 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(NATRF2022) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 20.2 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 13.9 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(North America plate\055fixed test service using NATRF2022\056 Confirm the coordinate epoch in service metadata\056) Tj
+T*
+() Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 3 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.5 Tf
+11.2 TL
+(SIRGAS2000\050YYYY\0565\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 3 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(South America test service using SIRGAS2000 at the midpoint of the named year\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.717647 0.780392 0.839216 RG
+0.35 w
+n
+0 160 m
+756.8504 160 l
+S
+n
+0 0 m
+756.8504 0 l
+S
+n
+0 0 m
+0 160 l
+S
+n
+756.8504 0 m
+756.8504 160 l
+S
+n
+0 142.8 m
+756.8504 142.8 l
+S
+n
+0 114.4 m
+756.8504 114.4 l
+S
+n
+0 97.2 m
+756.8504 97.2 l
+S
+n
+0 80 m
+756.8504 80 l
+S
+n
+0 62.8 m
+756.8504 62.8 l
+S
+n
+0 45.6 m
+756.8504 45.6 l
+S
+n
+0 17.2 m
+756.8504 17.2 l
+S
+n
+127.5591 0 m
+127.5591 160 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 212.9906 cm
+Q
+q
+1 0 0 1 48.51969 201.7906 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(Mountpoint availability and coverage are operational service properties and may differ from the transformation catalogue below\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 175.7906 cm
+q
+0 0.431373 0.564706 rg
+BT
+1 0 0 1 0 3 Tm
+/F3+0 13 Tf
+16 TL
+(2\056 AUTO regional outputs) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 147.3906 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 13.9 Tm
+/F2+0 8.5 Tf
+11.2 TL
+(\042Configured output\042 is the name emitted by the current converter when velocity is available\056 \042Status\042 explains whether the computation is a direct frame\055and\055epoch) Tj
+T*
+(transformation or has a known model or authority limitation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 48.51969 48.39055 cm
+q
+0.070588 0.231373 0.388235 rg
+n
+0 94 756.8504 -16 re
+f*
+1 1 1 rg
+n
+0 78 756.8504 -26 re
+f*
+0.952941 0.968627 0.980392 rg
+n
+0 52 756.8504 -26 re
+f*
+1 1 1 rg
+n
+0 26 756.8504 -26 re
+f*
+1 1 1 rg
+q
+1 0 0 1 3 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(\043) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 25.67717 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(Country or region) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(Code) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 181.5827 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(Configured output) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 323.315 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(Basis) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 436.7008 81 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2 Tm
+/F3+0 8 Tf
+10 TL
+(Status) Tj
+T*
+ET
+Q
+Q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 3 65 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 25.67717 55 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(United States \055 CONUS) Tj
+T*
+(and Alaska) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 65 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2 Tm
+/F4 8 Tf
+10 TL
+(USA) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 181.5827 65 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2 Tm
+/F4 8 Tf
+10 TL
+(NAD83\0502011\051\0502010\05600\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 323.315 55 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(NAD83\0502011\051\054 epoch) Tj
+T*
+(2010\0560) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 436.7008 55 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(NGS transformation\073 regional displacement behavior depends on HTDP and) Tj
+T*
+(input velocity \133R2\135\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 39 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 25.67717 39 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(United States \055 Hawaii) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 39 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2 Tm
+/F4 8 Tf
+10 TL
+(USA) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 181.5827 39 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2 Tm
+/F4 8 Tf
+10 TL
+(NAD83\050PA11\051\0502010\05600\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 323.315 29 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(NAD83\050PA11\051\054 epoch) Tj
+T*
+(2010\0560) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 436.7008 39 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(NGS transformation\073 selected geographically within the USA route \133R2\135\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 13 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 25.67717 3 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(Guam and Northern) Tj
+T*
+(Mariana Islands) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 130.5591 13 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10 TL
+/F4 8 Tf
+0.294118 0.333333 0.388235 rg
+(GUM) Tj
+0.141176 0.196078 0.278431 rg
+/F2+0 8 Tf
+10 TL
+(\054 ) Tj
+/F4 8 Tf
+0.294118 0.333333 0.388235 rg
+(MNP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 181.5827 13 cm
+q
+0.294118 0.333333 0.388235 rg
+BT
+1 0 0 1 0 2 Tm
+/F4 8 Tf
+10 TL
+(NAD83\050MA11\051\0502010\05600\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 323.315 3 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 12 Tm
+/F2+0 8 Tf
+10 TL
+(NAD83\050MA11\051\054 epoch) Tj
+T*
+(2010\0560) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 436.7008 13 cm
+q
+0.141176 0.196078 0.278431 rg
+BT
+1 0 0 1 0 2 Tm
+/F2+0 8 Tf
+10 TL
+(NGS transformation \133R2\135\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.717647 0.780392 0.839216 RG
+0.35 w
+n
+0 94 m
+756.8504 94 l
+S
+n
+0 0 m
+0 94 l
+S
+n
+756.8504 0 m
+756.8504 94 l
+S
+n
+0 0 m
+756.8504 0 l
+S
+n
+0 78 m
+756.8504 78 l
+S
+n
+0 52 m
+756.8504 52 l
+S
+n
+0 26 m
+756.8504 26 l
+S
+n
+22.67717 0 m
+22.67717 94 l
+S
+n
+127.5591 0 m
+127.5591 94 l
+S
+n
+178.5827 0 m
+178.5827 94 l
+S
+n
+320.315 0 m
+320.315 94 l
+S
+n
+433.7008 0 m
+433.7008 94 l
+S
+Q
+Q
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Contents 58 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 56 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/F1 7 0 R
+/F2+0 8 0 R
+/F3+0 12 0 R
+/F4 16 0 R
 >>
 endobj
 7 0 obj
 <<
-/Contents 59 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 56 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://itrf.ign.fr/docs/solutions/itrf2020/Transfo-ITRF2020_TRFs.txt)
->> /Border [ 0 0 0 ] /Rect [ 126.4533 69.19055 275.2931 78.79055 ] /Subtype /Link /Type /Annot
+/BaseFont /AAAAAA+BitstreamVeraSans-Roman
+/FirstChar 0
+/FontDescriptor 9 0 R
+/LastChar 127
+/Name /F2+0
+/Subtype /TrueType
+/ToUnicode 11 0 R
+/Type /Font
+/Widths [ 600.0977 633.7891 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 317.8711 400.8789 459.9609 837.8906 636.2305 950.1953 779.7852 274.9023 390.1367 390.1367 500 837.8906 317.8711 360.8398 317.8711 336.9141 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 336.9141 336.9141 837.8906 837.8906 837.8906 530.7617 1000 684.082 686.0352 698.2422 770.0195 631.8359 575.1953 774.9023 751.9531 294.9219 294.9219 655.7617 557.1289 862.793 748.0469 787.1094 603.0273 787.1094 694.8242 634.7656 610.8398 731.9336 684.082 988.7695 685.0586 610.8398 685.0586 390.1367 336.9141 390.1367 837.8906 500 500 612.793 634.7656 549.8047 634.7656 615.2344 352.0508 634.7656 633.7891 277.832 277.832 579.1016 277.832 974.1211 633.7891 611.8164 634.7656 634.7656 411.1328 520.9961 392.0898 633.7891 591.7969 817.8711 591.7969 591.7969 524.9023 636.2305 336.9141 636.2305 837.8906 600.0977 ]
 >>
 endobj
 9 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://www.ngs.noaa.gov/TOOLS/Htdp/HTDP-user-guide.pdf)
->> /Border [ 0 0 0 ] /Rect [ 134.6173 57.19055 230.9494 66.79055 ] /Subtype /Link /Type /Annot
+/Ascent 759.7656
+/CapHeight 759.7656
+/Descent -240.2344
+/Flags 4
+/FontBBox [ -183.1055 -235.8398 1287.109 928.2227 ]
+/FontFile2 10 0 R
+/FontName /AAAAAA+BitstreamVeraSans-Roman
+/ItalicAngle 0
+/MissingWidth 600.0977
+/StemV 87
+/Type /FontDescriptor
 >>
 endobj
 10 0 obj
 <<
-/Annots [ 8 0 R 9 0 R ] /Contents 60 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 56 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
->>
-endobj
-11 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://beta.ngs.noaa.gov/NATRF2022/)
->> /Border [ 0 0 0 ] /Rect [ 134.6173 539.9906 268.547 549.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-12 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/tools-outils/nad83-docs.php)
->> /Border [ 0 0 0 ] /Rect [ 116.7502 527.9906 262.2853 537.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-13 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://epsg.org/transformation_10415/ITRF2020-to-NAD83-CSRS-v8-1.html)
->> /Border [ 0 0 0 ] /Rect [ 110.5861 515.9906 298.1212 525.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-14 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.lmi.is/static/files/utgefid_efni/Maelingar/isnet_endurmael_2016_skyrsla.pdf)
->> /Border [ 0 0 0 ] /Rect [ 230.922 503.9906 368.5392 513.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-15 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://sirgas.ipgh.org/densificaciones-nacionales/)
->> /Border [ 0 0 0 ] /Rect [ 120.3478 491.9906 267.8009 501.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-16 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://evrs.bkg.bund.de/results-and-products/national-reference-frames-and-geoid-models)
->> /Border [ 0 0 0 ] /Rect [ 137.7658 479.9906 316.5822 489.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-17 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://geodesie.ign.fr/textes-et-decrets)
->> /Border [ 0 0 0 ] /Rect [ 136.6252 467.9906 272.3869 477.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-18 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://mapas2.igac.gov.co/server/rest/services/geodesia/redgravimetrica/MapServer/layers)
->> /Border [ 0 0 0 ] /Rect [ 158.6955 455.9906 297.7072 465.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-19 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.linz.govt.nz/guidance/geodetic-system/coordinate-systems-used-new-zealand/geodetic-datums/new-zealand-geodetic-datum-2000-nzgd2000/new-zealand-geodetic-datum-2000-deformation-model)
->> /Border [ 0 0 0 ] /Rect [ 113.0666 443.9906 236.2658 453.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-20 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://srgi.big.go.id/download/info_produk/INFO%20MODEL%20DEFORMASI.pdf)
->> /Border [ 0 0 0 ] /Rect [ 154.84 431.9906 273.4103 441.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-21 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.jupem.gov.my/storage/upload/pekeliling/d9d1d-pkpup-3-2021.pdf)
->> /Border [ 0 0 0 ] /Rect [ 163.6603 419.9906 297.8556 429.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-22 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://web1.gsi.go.jp/ENGLISH/page_e30030.html)
->> /Border [ 0 0 0 ] /Rect [ 135.7814 407.9906 208.6798 417.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-23 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://earth-info.nga.mil/php/download.php?file=WGS+84%28G2296%29.pdf)
->> /Border [ 0 0 0 ] /Rect [ 111.9494 395.9906 287.9845 405.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-24 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.inegi.org.mx/temas/geodesia_activa/)
->> /Border [ 0 0 0 ] /Rect [ 117.1759 383.9906 241.5353 393.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-25 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.rnpdigital.go.cr/otros_servicios_linea.htm)
->> /Border [ 0 0 0 ] /Rect [ 222.2384 371.9906 314.8712 381.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-26 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.nla.gov.jm/sites/default/files/Procedures%20and%20Standards%20for%20Digital%20Cadastral%20Surveying%20in%20Jamaica.pdf)
->> /Border [ 0 0 0 ] /Rect [ 228.7502 359.9906 378.4064 369.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-27 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://crs.bkg.bund.de/crs/eu-description.php?crs_id=Y1RSX1RVUkVGKyUyRitUUl9UTQ%3D%3D)
->> /Border [ 0 0 0 ] /Rect [ 147.2189 347.9906 201.59 357.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-28 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia/geodesy/datums-projections/gda2020)
->> /Border [ 0 0 0 ] /Rect [ 187.0041 335.9906 225.1955 345.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-29 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.sz.gov.cn/hdjl/ywzsk/ghj/zrzyl/content/mpost_9358232.html)
->> /Border [ 0 0 0 ] /Rect [ 241.1877 323.9906 331.0197 333.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-30 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.ngii.go.kr/lib/file/%280907%29%20%EA%B5%AD%ED%86%A0%EC%A7%80%EB%A6%AC%EC%A0%95%EB%B3%B4%EC%9B%90%20%EC%B8%A1%EC%A7%80%EC%B8%A1%EB%9F%89%20%EC%97%85%EB%AC%B4%20%EC%86%8C%EA%B0%9C.pdf)
->> /Border [ 0 0 0 ] /Rect [ 140.9611 311.9906 257.3712 321.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-31 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1742&s=327692&sms=9680)
->> /Border [ 0 0 0 ] /Rect [ 150.7892 299.9906 266.7033 309.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-32 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://openjicareport.jica.go.jp/pdf/12386298_01.pdf)
->> /Border [ 0 0 0 ] /Rect [ 110.5119 287.9906 227.5666 297.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-33 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://pagenet.namria.gov.ph/AGN/Bulletins/Bulletin_PAGeNet-2022_05_04.pdf)
->> /Border [ 0 0 0 ] /Rect [ 128.672 275.9906 222.8869 285.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-34 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://surveyofindia.gov.in/pages/continuously-operating-reference-stations-cors-)
->> /Border [ 0 0 0 ] /Rect [ 160.84 263.9906 214.5587 273.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-35 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.geosa.gov.sa/ar/Pages/faq.aspx)
->> /Border [ 0 0 0 ] /Rect [ 123.2814 251.9906 187.4181 261.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-36 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://geotransform.napr.gov.ge/download_help.php?filename=HELP.pdf)
->> /Border [ 0 0 0 ] /Rect [ 155.4923 239.9906 286.5314 249.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-37 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://osgof.gov.ng/wp-content/uploads/2024/01/Geocentric-Datum.pdf)
->> /Border [ 0 0 0 ] /Rect [ 123.8908 227.9906 262.3361 237.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-38 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://ngi.dlrrd.gov.za/index.php/technical-information/geodesy-and-gps)
->> /Border [ 0 0 0 ] /Rect [ 167.2775 215.9906 238.4337 225.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-39 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://ngs.noaa.gov/datums/newdatums/release.shtml)
->> /Border [ 0 0 0 ] /Rect [ 140.1837 203.9906 262.7775 213.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-40 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.ngs.noaa.gov/TOOLS/spc.shtml)
->> /Border [ 0 0 0 ] /Rect [ 282.9142 203.9906 390.2189 213.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-41 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.geodetic.gov.hk/common/data/pdf/SatRef_Coord.pdf)
->> /Border [ 0 0 0 ] /Rect [ 228.5041 191.9906 314.5627 201.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-42 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.dscc.gov.mo/files/geographical_geodetic_control/ENG/Macaucoord_2009_web_EN_v201702.pdf)
->> /Border [ 0 0 0 ] /Rect [ 208.2502 179.9906 398.0861 189.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-43 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.geodetic.gov.hk/common/data/SatRef/MoSRef%20Coordinate%20List_20241203.pdf)
->> /Border [ 0 0 0 ] /Rect [ 303.0627 167.9906 444.4572 177.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-44 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://www.geodetic.gov.hk/common/data/parameter/7P_HK_Macao_2012_en.pdf)
->> /Border [ 0 0 0 ] /Rect [ 464.5939 167.9906 689.5431 177.5906 ] /Subtype /Link /Type /Annot
->>
-endobj
-45 0 obj
-<<
-/Annots [ 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 
-  21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 
-  31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 
-  41 0 R 42 0 R 43 0 R 44 0 R ] /Contents 61 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 56 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
->>
-endobj
-46 0 obj
-<<
-/Filter [ /FlateDecode ] /Length 688
->>
-stream
-xúç’MkQ∆ÒΩübñ-•Ëıº• B^»¢/$•˚âﬁ§Be4ã|˚û«'$ó.J=ˇ—π¯Ñ3Ωºπ∫6«n˙}‹≠ÓÍ±{ÿÎ±vO„™v˜ıq3L º[oV«ó´”Îj€Ô'”<|˜|8÷ÌÕ∞õ,›Ù6?<«ÁÓ›˘ÈÒ·bsÃÎ⁄o÷±øÎá√«€›∂ﬁO¶ﬂ∆u7√„‹z˜¥ﬂˇÆ€:ªŸdπÏ÷ı!ø¸Køˇ⁄ok7˝˜˘∑ª<Ôk7?]˛ò’n]˚~ïÜ«:YÃfÀn◊ÀI÷}VÊg<sˇ∞˙’è/˜ŒÚ±Ã.ßææDœõ˜•im⁄öˆ¶£È≥¶?5}ﬁÙE”óM_5˝πÈÎ∑.çøî¶i¸•Òó∆_i¸•Òó∆_i¸•Òó∆_i¸s˙Áß¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMˇˇÅ9˝9≤ÈœëMé…BË¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~ÖﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~á?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛óÒ≤	∞+∞_“ÍisWùvÊiÒ`ÂlÜ˙∫V˜ª=N·˘,ÏÆ4endstream
-endobj
-47 0 obj
-<<
-/Filter [ /FlateDecode ] /Length 17878 /Length1 28332
+/Filter [ /FlateDecode ]
+/Length1 28332
+/Length 17878
 >>
 stream
 xú’Ω	xU≈˘0>sÊÏwøπ7˚r≥$$Ñ]∏	$!&!,ä&d!AHb∂HŸÑ@ABÇ"BD@@DDJ‚é∏ m-–ñÇµ
@@ -410,42 +1067,51 @@ m˘ı—ô¬Ø_%ø^∆˝U¥pt¶˚9ÍÊMéh‰ïrX#/k‰êF^“»¡Ú¢ôx!Z8PB^ÿo^à&˚Ìd ΩÔŸ´ëÁ5≤G#ª
 —d±Fid°ô,0í˘*©◊H›-R{ã‘‹"ﬂ"’©“H•FÊÜìá42«ñ&Ã…#)_Bf√MôFJ5R¢ëbçÃ“H—pRxã<`$35rüFfhd˙4Uò~ãLS…Tﬂ aj)–»Ä<%ç‰;I∂
 y˛$◊AÓù‡#‹´ëô¨ëÏIV![#ì¨$K#·…DçL»¥
 |HfàI»¥íÒ&2N#-$ΩÖå’»Æø0ÊI{ï§N$nçå÷»®{Ï¬(πg§E∏«NFé0	#›w,dÑâ◊»0ç‚Üﬁ"C[Ö!28≈ ∂íJíM$i†AH“»@IL0â&í` ˙+¬ +ÈØê¯$“Øo¥–ØÑÙç≥}£IúùÙâç˙§íÿhmb,$⁄@¢4©ë	:√ÌƒUB¬nëP !¥ÑÑòH0p0X#A∑H`	Äõ ç¯ó?‡îüF|aêo qjƒ°çÿ°É]#6†’ñF¨Kà•Ñò5b2˙
-&ç°∑—ó4¢Zâ¢∫…ëD,!<<‰AúZâF8∏Á˙l%H#∏ó¨z˜˚·˝ﬂF‡ﬂ˛Ñ¸/ÓÍπendstream
+&ç°∑—ó4¢Zâ¢∫…ëD,!<<‰AúZâF8∏Á˙l%H#∏ó¨z˜˚·˝ﬂF‡ﬂ˛Ñ¸/ÓÍπ
+endstream
 endobj
-48 0 obj
+11 0 obj
 <<
-/Ascent 759.7656 /CapHeight 759.7656 /Descent -240.2344 /Flags 4 /FontBBox [ -183.1055 -235.8398 1287.109 928.2227 ] /FontFile2 47 0 R 
-  /FontName /AAAAAA+BitstreamVeraSans-Roman /ItalicAngle 0 /MissingWidth 600.0977 /StemV 87 /Type /FontDescriptor
->>
-endobj
-49 0 obj
-<<
-/BaseFont /AAAAAA+BitstreamVeraSans-Roman /FirstChar 0 /FontDescriptor 48 0 R /LastChar 127 /Name /F2+0 /Subtype /TrueType 
-  /ToUnicode 46 0 R /Type /Font /Widths [ 600.0977 633.7891 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 317.8711 400.8789 459.9609 837.8906 636.2305 950.1953 779.7852 274.9023 
-  390.1367 390.1367 500 837.8906 317.8711 360.8398 317.8711 336.9141 636.2305 636.2305 
-  636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 336.9141 336.9141 
-  837.8906 837.8906 837.8906 530.7617 1000 684.082 686.0352 698.2422 770.0195 631.8359 
-  575.1953 774.9023 751.9531 294.9219 294.9219 655.7617 557.1289 862.793 748.0469 787.1094 
-  603.0273 787.1094 694.8242 634.7656 610.8398 731.9336 684.082 988.7695 685.0586 610.8398 
-  685.0586 390.1367 336.9141 390.1367 837.8906 500 500 612.793 634.7656 549.8047 
-  634.7656 615.2344 352.0508 634.7656 633.7891 277.832 277.832 579.1016 277.832 974.1211 
-  633.7891 611.8164 634.7656 634.7656 411.1328 520.9961 392.0898 633.7891 591.7969 817.8711 
-  591.7969 591.7969 524.9023 636.2305 336.9141 636.2305 837.8906 600.0977 ]
->>
-endobj
-50 0 obj
-<<
-/Filter [ /FlateDecode ] /Length 681
+/Filter [ /FlateDecode ]
+/Length 688
 >>
 stream
-xúÖ’MkQ∆ÒΩübñ-•Ëıº• B^»¢/4•{£◊Tà£åfëoﬂÛ¯HrÈ¢–ÛÊ˛\ùÒı›Õ]ø9v„Ô√ny_è›z”ØÜzÿ=À⁄=‘«M?*”nµYœwßÔÂv±çÛÂ˚ó√±nÔ˙ın4õu„˘p^∫wóßÎ√’Êò˜u±˝Uá≈˝¢?|º⁄=≠ﬁè∆ﬂÜU6˝„ˇOﬁ?Ô˜Ou[˚c7ÕÁ›™ÆÛßø,ˆ_€⁄çˇ˘˙€·ü/˚⁄MO˜Öˇdπ[’√~±ÃÛ˝cÕ&ìy7ã€˘®ˆ´øûïÈﬂyX//ÜÛŸI^ÛÏ“Ù¥iiZõ∂¶ΩÈh˙¢ÈOM_6}’Ùu”7Mn˙ˆ≠K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯ßÙOOMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9F3°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙œ‚º	∞+∞_˜—ÚyrUùÊiÒ`Âl˙˙∫S˜ª=ﬁ¬Áë¨óendstream
+xúç’MkQ∆ÒΩübñ-•Ëıº• B^»¢/$•˚âﬁ§Be4ã|˚û«'$ó.J=ˇ—π¯Ñ3Ωºπ∫6«n˙}‹≠ÓÍ±{ÿÎ±vO„™v˜ıq3L º[oV«ó´”Îj€Ô'”<|˜|8÷ÌÕ∞õ,›Ù6?<«ÁÓ›˘ÈÒ·bsÃÎ⁄o÷±øÎá√«€›∂ﬁO¶ﬂ∆u7√„‹z˜¥ﬂˇÆ€:ªŸdπÏ÷ı!ø¸Køˇ⁄ok7˝˜˘∑ª<Ôk7?]˛ò’n]˚~ïÜ«:YÃfÀn◊ÀI÷}VÊg<sˇ∞˙’è/˜ŒÚ±Ã.ßææDœõ˜•im⁄öˆ¶£È≥¶?5}ﬁÙE”óM_5˝πÈÎ∑.çøî¶i¸•Òó∆_i¸•Òó∆_i¸•Òó∆_i¸s˙Áß¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMˇˇÅ9˝9≤ÈœëMé…BË¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~ÖﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~á?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛óÒ≤	∞+∞_“ÍisWùvÊiÒ`ÂlÜ˙∫V˜ª=N·˘,ÏÆ4
+endstream
 endobj
-51 0 obj
+12 0 obj
 <<
-/Filter [ /FlateDecode ] /Length 17162 /Length1 27344
+/BaseFont /AAAAAA+BitstreamVeraSans-Bold
+/FirstChar 0
+/FontDescriptor 13 0 R
+/LastChar 127
+/Name /F3+0
+/Subtype /TrueType
+/ToUnicode 15 0 R
+/Type /Font
+/Widths [ 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 348.1445 456.0547 520.9961 837.8906 695.8008 1001.953 872.0703 306.1523 457.0312 457.0312 522.9492 837.8906 379.8828 415.0391 379.8828 365.2344 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 399.9023 399.9023 837.8906 837.8906 837.8906 580.0781 1000 773.9258 762.207 733.8867 830.0781 683.1055 683.1055 820.8008 836.9141 372.0703 372.0703 774.9023 637.207 995.1172 836.9141 850.0977 732.9102 850.0977 770.0195 720.2148 682.1289 812.0117 773.9258 1103.027 770.9961 724.1211 725.0977 457.0312 365.2344 457.0312 837.8906 500 500 674.8047 715.8203 592.7734 715.8203 678.2227 435.0586 715.8203 711.9141 342.7734 342.7734 665.0391 342.7734 1041.992 711.9141 687.0117 715.8203 715.8203 493.1641 595.2148 478.0273 711.9141 651.8555 923.8281 645.0195 651.8555 582.0312 711.9141 365.2344 711.9141 837.8906 600.0977 ]
+>>
+endobj
+13 0 obj
+<<
+/Ascent 759.7656
+/CapHeight 759.7656
+/Descent -240.2344
+/Flags 262148
+/FontBBox [ -199.2188 -235.8398 1416.992 928.2227 ]
+/FontFile2 14 0 R
+/FontName /AAAAAA+BitstreamVeraSans-Bold
+/ItalicAngle 0
+/MissingWidth 600.0977
+/StemV 165
+/Type /FontDescriptor
+>>
+endobj
+14 0 obj
+<<
+/Filter [ /FlateDecode ]
+/Length1 27344
+/Length 17162
 >>
 stream
 xú›º	xE˛0\’’›”›s'3ìLŒI¬$	ÅÄ·êí@ Ñ¬}Â&Å\Ê\Ô—EÂ\DDåÄàà]XÙ/Ë""≤¬ÍjD◊CR|ø™û		≤«˜ΩÔ˚|œÛ•”Wu’Ôæ™∫ÑBf¥î7abrÍÀ˛:Z>á}rIuQù:EAÄ›Ur[£ÁÊW˚¸!!ˆ¸Ú∫π’Ô‘•ª7BˇGÊV-,ˇqØÑ§$ÑÜ•Tîï~QÒB6B#g¬ÛÅ–`Ô´Ãá˚'‡æGEu„ÌøJÅæ#˜¸eUµ%E/ÙxfB7¡Û7´ãnØìÎï%pﬂ˜ûö¢Í≤W¶{°ÃÑ"ø´´mhºÍ¡B%
@@ -507,157 +1173,677 @@ $∆∫˙J≤†æ≤Bäß®	ZÎ+Ôß‰z ∫ûÜÂz˙ÎÀÍ cUﬁVVµ∞/Ù≠gyçSRYS^[_ÌgùãØ§qp ñ6zÊr‡•¿xm˝‹æ
 ¿ØÔfõ:µM\ÜI]¥√Æ´π>∫ÆÉ^≈våN˙|$uÚôêÍ·ÆÅ{iU'ÏJøTªkˇﬂsêúNm]ßE7^gu◊8Z¿ÂQ˝_axC9Pœ≠µÅèπÜ±îé$~fíò=J8<ΩOW;f¸÷rΩË*·∏K9≈ï~JwzhÅd@≠Â1‚ö∫∆•kR¯}D®Å˛ç~èhË÷7‡/◊§÷5tÁ·|˘µUÏóÃ5{”%R…«˝ù2»zÃ®ÁVTÎóÚ´q÷g!ß∑úGªÔÔ§ıÔ∆3π,Ï‰°ö{a%˜È@dcÙ7˙£üﬁ¢SÀ‰Z⁄E˜]≠OÁºéc—e÷Pä¯∏ W•úZ¶≥ö.ô˝G˛∂˙.±¥à[ën√◊À®·?Ú‘5÷ïv≥¥"ÆßˇûÇÓxÆó«çhKÚÎºäè´¸7QΩﬁÅ 8]’›‡Z:≠2‡7◊gë2º+Î&˘ú´R>>ˆπ1∂ìÔÎG∞˛ÅÃ{ù•Èæìs]Æ)Êæ_€Öﬁ&ø?¥p<≠ºÅ‘ –Ì\÷5~èÆÉMœdE<∫ñuéË™{ùÓÔ1<⁄{¯π¡Oc∑¶m+:w7ä„ÏiÔ’] 7í¨ßãÙ∫ÍÒ≈g¸ıô«œM¿Î≈*â™ŒZ§ﬁ?¢;ƒ:nŸÛ·8◊Ø5=?÷p˘^_á¸üàZˇö´bøØ4˙Ûcy7içAô◊îw◊∏+@S†¬ÃÁœ≤°Õµ]><ôwÏ-gp˝å‡OÿÛXÓôS‡öAúÄ&qX:å|82ÿ”†Ö¡ˆ{v7˙Á,66MÂ82⁄Dﬁ3ü√≠9pŒÙ˜c#FAÀ$∏g◊£´Nu|Ïﬂ=pb„-:•–~kw™≤9∆ e„·.‡èÒ?eˇZ:õ√cÙ'qI±Î‹N:≥¸îé‡2bêÃQ@Qøc≠ì‡ú˝&ryé‡<Î‘Êr≤‡πŒK&ß@◊ÑN—(˛/¨ßÒÏü[p*¶œ$Œ!„'ÉègX«ÒVù≤	~-≥ÎkP˙˙e©”¡‰?πÛDŒlŒˇ˜ŸL7# ~ n¿vFs„;ÌhÁoó√éa$∆§»‰ô”Ÿ3øãVFqy1Ω1 38¶\"o»I ZwÌ‹»:Fs˛2π§rxÔâ «LËü›Ÿ¢€c6Áuî_∂:L›Óuõ»È"›QúG¶Ÿ[ k¶ﬂ¶FpŸuÁB˜Fˇ5.tåGuëŸ5ÌÁ˙µ;™S◊∏ï˝^*S∏/fÚ^#∏Æ'vJ!ã˚Ôx?Âì∫XX@èì¸ˆ9°ì≤ÓÚ¯Q†ﬂ;tX‹›5ò¡Ì)«O·ƒNi¸g∏◊‚W&‰∏>ˇiÏåﬂ›3y◊JÚZÖ⁄µMÍsªVz4Õ˚V_◊ÔZ´ßı¸um‘µñªQÃúıˇZ%®FÙÆœï∫V¬•ºf◊k¬ÜŒ*Eœ#µùï ˛ÙZ~◊gá’ºG◊˘_«´s÷‰q=,ΩŒ,‚ï√÷pi˛ªLu˝å±éÁ~À~›ËØRM˛æ¨˝éÎf…ı◊Õ≤˛ìº¸'˘◊s}◊˘ÁXï\¬¨æÏÎá[èÛµk2a(Áœ™Ø”˙5Îc–£ÎÎR&Éπ](/ıkºñ◊}˘¸´®≥⁄dê€˙Ç=\œC_Uàà˛í˜j$ˇœ¸ø˚qè∞«#äˆ";{‡ .·®Ó‚êé±˛∂Xﬁè]Ï·œ£—kpå2	é‰O#êé·(
 éaº≈Õè°¸¬è.~tb≤ T'øc◊ÛÎ ~¥bZœ≠¸é]l∆&Ù¥ôyõA"6a#Ñâ?!p\mF¨°xhcO}–∆ZV˘HÖ»ƒèlÑº˚…æ“à`,sæ$~y/¬9xÊG‰ª∫Ñ\ΩôPJ⁄Ø$IÌî\I"mî¸vy¥Ù€ry4˘µç¸B…œî\¢‰ˇzç¸D…?)˘ëí¢»EJæo’§Ô)i’H´O¸Ó[M˙.ï|´ë¥ëowIﬂPÚu˘{π 7(9O…Wî¸çísî|I…YJæh#g>ïŒîíœC…ÈçQ“ÈRÚŸ)ØÙY9Â%˝»+˝µç|˙âC˙‘E>9iì>qêì6r‚c£t¬C>6íˇÅˇ”F>¯y…áOò§„»Òø8§„Ò‰/«Ç§ø8»± rç$8»˚ÔΩ&ΩO…{ÔŒíﬁ{çº∑L|◊wıœ^È›Y‰]ü¯g/yáí∑KIÀc6©Öí∑"»õîºA…ë◊KG⁄»Î/ÑKØ&áÖIáS…°ÉvÈP9¯öU:h'Ø0IØY…yêΩJ…~J^qí}A‰eJˆR≤áí›!‰%7ivëŒãmdúvµë†ˇ·d'úv.!œS≤#û<G…vJû•d%“»VJ∂l∂H[(Ÿl!õ}‚&‘¶6≤Ülå"‡¥°ç<Ã?Aû¶d˝SØIÎ)yj›,È©◊»SÀƒu+º“∫YdùO\K…∞é5î<Ÿó¨ÜÅ´£|W…*∫ Cû0ëï–¥r˘#ú˛H…„ á«]‰1Y·%èR≤úíG(yòíá(yêíÓ˜JPrøó‹G…Ωî‹ìJÓ^M˛@…]î,sì•πìí%î,¶dQπ£ç,§d¡m€§î‹∂ç45ÜKMm§1ú4¥ë˙%‰VJÍjì§⁄$R”F™€HUôO…<J*)©(1I©d.%Â©§¨Tì ()’H©O,)÷§)÷HQ°S*ZM
 ±]*tí9ôM…,Jf¬˝LJfLófP2Ó¶áìiîLm#S(ô˜æ´ì)ôDIAôË ˘∑∏•¸6r<∏≈MÚ&∏•º62!◊.Mpì\;Er∆9§'7÷.çsê±Ÿi¨ùd[»ò62:À!çví,…l#£,RÜïå≤êë#º“»62`éﬂp´‰£d¯Õi∏ï‹l!√Üö•a.2‘LÜîí¡î§;»Mî
-&”¬§Å^í6¿!•Öë¥#‚ Õ,pêÀƒ˛©&©øÉÙ˜â©&“/eõ‘èíÄü≤ç$õHﬂ`“'i∞‘ßç$9ΩR“`“ªîÙ*%âîÙtíÑªîE‚=ƒEzƒÅ z˜à"qvãÃRlâ±íüËqêhçDEë»∑È%÷`)¬M"ˆCÃx\7ì0˜8)l	qR˜8JIàù∏ õ´ç8°ÕÈ%éRl'Aîÿ·ﬁNâ≠îX-6…L¨GDãçXñâfxbn#¶Tb÷å.b\&jf¢˘DïÖ%≤§I2%íF$ü(∂RJ%Pà^f	€	2ºóﬁª˜˛ˇ«˙ˇöÄˇÉ?ëËˇ°€Xendstream
+&”¬§Å^í6¿!•Öë¥#‚ Õ,pêÀƒ˛©&©øÉÙ˜â©&“/eõ‘èíÄü≤ç$õHﬂ`“'i∞‘ßç$9ΩR“`“ªîÙ*%âîÙtíÑªîE‚=ƒEzƒÅ z˜à"qvãÃRlâ±íüËqêhçDEë»∑È%÷`)¬M"ˆCÃx\7ì0˜8)l	qR˜8JIàù∏ õ´ç8°ÕÈ%éRl'Aîÿ·ﬁNâ≠îX-6…L¨GDãçXñâfxbn#¶Tb÷å.b\&jf¢˘DïÖ%≤§I2%íF$ü(∂RJ%Pà^f	€	2ºóﬁª˜˛ˇ«˙ˇöÄˇÉ?ëËˇ°€X
+endstream
+endobj
+15 0 obj
+<<
+/Filter [ /FlateDecode ]
+/Length 681
+>>
+stream
+xúÖ’MkQ∆ÒΩübñ-•Ëıº• B^»¢/4•{£◊Tà£åfëoﬂÛ¯HrÈ¢–ÛÊ˛\ùÒı›Õ]ø9v„Ô√ny_è›z”ØÜzÿ=À⁄=‘«M?*”nµYœwßÔÂv±çÛÂ˚ó√±nÔ˙ın4õu„˘p^∫wóßÎ√’Êò˜u±˝Uá≈˝¢?|º⁄=≠ﬁè∆ﬂÜU6˝„ˇOﬁ?Ô˜Ou[˚c7ÕÁ›™ÆÛßø,ˆ_€⁄çˇ˘˙€·ü/˚⁄MO˜Öˇdπ[’√~±ÃÛ˝cÕ&ìy7ã€˘®ˆ´øûïÈﬂyX//ÜÛŸI^ÛÏ“Ù¥iiZõ∂¶ΩÈh˙¢ÈOM_6}’Ùu”7Mn˙ˆ≠K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯ßÙOOMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9F3°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙œ‚º	∞+∞_˜—ÚyrUùÊiÒ`Âl˙˙∫S˜ª=ﬁ¬Áë¨ó
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 841.8898 595.2756 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+18 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3542
+>>
+stream
+Gau0H>Beg[&q9SY^cD;OF<^tin&J5(/?;BP`Kc\SSg8`W.G/5WOU=Z?EI[osGQCB+(J(."RlDN]bQ.FP\H!`iU%#sW^V^d0^X(#k.n1@'o/jf?_]n^HA2lgNIV*i%c$bKeSkEqH,DIk$EAAQ*`Pgbjc$[PZgbVXIYoL%nY4!=,93H=Q8S2USag#)?%*S9'F,47'G`\'[rX<>D8fcG'Et(`IcR&/t.)u9]M(:IT9#](G_[i)tiLEU)n&S1uO&7=H+A(!M'F2/kZ_o>jX6^Rhs%VXjaaUU-\?695;!3q!S)@TahJ2(H(_*=?=".mRL(,A:_^N[DU=CB+PF8RF$knB<Zt1n#Gg>k#inBFOg!h3/(kkqN]AK8Yq,?22dFLIn^;oa)/AV&VNot?tIX;bu;E\SqgRd]=be6qYVYjiF0XiF:CteO>BUG[)m@HZsZ`QCX[*8KNrAr:\GM52;\$p1F14u)<SjDM115!e74G/T27HU;0g")a<>5#CJlTi@rGF0cU"GQYPS>p`OI[e,?ZfJKnD:oJ6WO*Qj=:MI<RC"Xds6A6p[`.15iOCL]:Mb9;CuRR*,"W,6ha^8N;\1aa@G<t-=jTM%DVJZUmIAXe&`6%ORoCq0ZH:^fI&A*NRtf&O'BT-5A5TeAD9I#0QW!:j`b0RYDk=F5Ml4]5$:d^H-b+2l/RUSVjXce<(g'N8*!uB`E#PllR61*"ch+FuTS=_l^Ck5p"u2MLX!H%WSrtVG#fbLNMuVN1E1:+5.s6$;!CRW!PQ%CkIQbI11\ULlf5j\)L"P>LX2F_>NuVT:@u*2b]I%*YKFbK_8fnL-,L,sn1aD=_N22%VMsfVjLi`,ub5X5?%g]GUls^702/mCR.;IJ5heY]L-Y+-L#moSpq.RuO(XG<7l$X80EOLP#h<(M!I6@SFp9GC1:q%CET[IpeLt^[m/cBogMJ':!Hl>d<BVd$hJQ;d.@qgWS_&Wt[VA1$)dU]ThF7A$s+mss,1+.uS)TDG]17QS1$=%Kf8,i__%YG2doB@!f*247S$DKL)b4M9<@ND8-T]5,QCpPC#YU"K4`7\FZY)3u?@pbG!anF2LfdO4M1h_dmC(S>"6H9NaGqT3gTKgi^$]:kiXTJR@f2n$i;2h2=NpQkee2j,D)(^2j2mX)f!9>H')3mQ0j<T3d,YV5h\5m9f6.TbU%dqNp2OVWWQ59_$qkI7?@?a!i-?534U8*bjrA4SM=?mRI02G9f7fff?QmZ"1Y/O1UCkm;aaEn5<YD<-@bS(snj2*LuUBlH/W3tuL(ds]%VL,-:?%cl;;%U<0)GEYb559pqObu,ON&D,Gids8sb@jbkE;.e+j<WNVW=7k-PMp2V8?jdq;?eCSc@,sW-HZU?)@SkD2+YLeaRDsB>:>mm$Ju'fn*k2`@AZ=H21@4LI+-qg4<=*-"j\a;p2tUl+$"JUE*a4Fc$4>'\+q2HO9Y0Xo_EHM(PNGh=Uih0a0UT-4Gq#rR$Xl]7Oilk\!R&$eup+`%;l46>jso#h+p0I-aDDh?4HRh7,:+i[aLk?M35U2kQGTZU.S&Mb5R[*L#H]j+Jb.Uidj>s%434>T@CqW"h9pT>9QYt!-k<o-W5tc`:\RMF.D=n[bLO7Qq!5r8=%B_2UXlKa2jkX+5Ue+)F`.u++f<W\b@qu.\rc?X^hghSlSsI276G''T;lZP("XbEXA-bP&MXelOqn2;1B_+,e>)Ma(@NIJB]p$N?i</&2!XXqC>NDP_AlD*E8eiWbch*4c*q!oMEe\V!Jh*(M:@+#4>M#+;HpGE\qpG9_X6GS5P89<>m%\=Y2uioj\Sk/.9n(K>sK)S,DX4"@(*:/6Qo-]k\o(NPLlGoke&G[f]:Q-,^<f&q]B]_El=Na/el2<$jJ9TN&leZn_S[Nu:KP4o?0_r#UGrd7WK!kUjcK=H[>@YN/L?+ioO0UK\mN'#b6`(9srF5*8?t7X#Gd#<[XJT*<94,.grbC9YK?8pc;^'XAUDQ_0sRk61XO7\Z<\>HpkNBQ1mP[d-$)H!_C=-,.k]B\)sqA0L[5eL2Wp(^]c;6L?Mn:fnhWrk]McFXT(Se7Z"klMOYelsu4KTE7B388"(&T-cd_C\IqRcTIJOT!u@p>_bAU,)2<$0T?N`/6Q%g&;M/)<[7&ZYe6Fu2&LifWl"gDP5uA3c[7dbnkJ\rDp)gBb7]r@`<`82hATXaH,Q&K^DGAC7nSLn2UAX=NUpQRF;WGc\<j>mCHre.<#a7b1CFC%O<As3O]$B(RVLs&=>RT+d//eZF-)PmNGW5X=lW?"P9(X(FtdscnOt/:`Y&HR@SSRYYLDQF@B1EdecIb\fT'R7[2fg^JR]WJm<p(q,"P;YrMWD+08bJ[C<iTYPOh*B&ELg(Vl1%$UF'bRD#?'E^KniQUmtLr`u%J#I$9!m3_%rDa@#,42,5@SLm%S1mh@,)ehlV2.H?+g%^4`R$>d!2[['?PRbqP8jq$?._)KcXHRcaJU(frf@$<f#WD%OU$:%dA+F%<cBs#Cp0UAg>-Hf>,C)Y8WNQ;nVB)S[5D2TWRFP5iA(\%mb9M2REp"*2kY*G5\ao>>4GplFkp/X`cmg$)d96nYi&5SI8)n/r3s"`^5=7^j9A5d"$'hQnCr#hUT@+,HoI$E+/T/@f1,Y95kF@f]!%+U"jdcbl@3%;fg`j^_fnSSkJhN'%V48)o#AJU9)?O(lO+K]u?A2L'o:FiH-<dt'/;&:UXi#:@X8>=rFlTjJf)&FN3I!_W.rW#HOA,p-,=IpD-cH.%2.7\f0rh-s]_Ks`"n_FRgM@`<Wgi!il*f$dc`uq/1Qpbq#*,Yk'(Y?2di%FeApScW;9S2-TIlJ>oqr&Gt\O`G!%oKEL1`C!O=6F*NMPSX-VUf:b?d6DCq!PBk+%c7(\;Of6\NjCu^4p\p(5XH'dP,q\.JY3>l?DeP#]?et0M'8?#pI%)b*Sc4LpQ!E+.MK\!kHV5/<6Z3!dP,p)KHOO20FlUn_FG0<#%o$&`N3\l!3ti!p7&!p)Yd:4.UnD\4W<-Y4md!`L]s0IYm1b0;0QN&R8h$'hQn;LjnQ@.4D1Sr'))8)b!X2VCDu(?#mbT6?rsZ>\fH*H!`D0n6EZOFWEm?Z3\[$UWI?G7;DK3#pD7@Q`id.E=)Qh02tIgMIQtcRC(m9'h,cA"Se)"Ae/8NHVs<b@d+B`2_1m^T7kB1=r!_o2n+t4/c>GAbQ'=YQ:hXqHr]%matIj17qW%Mp(-iXMH099]I_4/HIO%<=B2i[f;^>t;dO/Z/8j=mNk3`B="Vd+*`Z41X#KA+*DKBgcF@)n&hi]eMTm0E=23BognBVj%[5B,NHBGu.]Ia;2!_WnjUFrSfs%hEWd88]SXr,E<H53@"[uE[H)D",Fd;kG8#o5t<L)B;65ERdfhk*P<>Fhu+cCK.r/O7I8etEldnrIJ<L)676P`Z:mAM1dFd;n(7B9#r<L)B;6P`Z:n#.CfWetrKON"fRlY,679%Y.)m+-i3kG(0Mh-kPggFd4UXqaXBQu2,(OEM5:l>)?%n>^4<5eC^3lMiDaaP$Rns4c9*~>
+endstream
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 841.8898 595.2756 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+20 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3212
+>>
+stream
+Gatm?=``=W&q9SYkc0&5AN&NL"OEVd-['$]O!Kld>I3i`^`m;F6]i:M8k/^D\%r.l*?DAD\7-6['&@5K?_\PF"bJtGqRou3]UQf'5>\"2ba1R8bCTIHSBk"14L"tMg7\ULi"J$T^^B0F)lAg_'HGkJC$:7Y#8VACa+G-%@;%Bfd-b$<ZP.`I3BdVi@A-CYYZuc%;TKqT:c<1?;=.6<,/b">R'0=@q]>rgWEE%J2O^.c4M*bK_fU>21Qd0J(BWH+=WYO20*TS.74D9V)jl,-q(K#q4W2!&U(YC+-K>bh&AWU/Hq%m"7>"W<a1'h8>?e2)Yt/@MRo/<(YS`gd\[%PNIch7]I+P\+QT-Zg/*$bt^L3i-Vg4%$hQD((:lYV20D#=lp@3&dd$!ZETCfk'GIQou059)LNjh.7Q`\rHmI0E+TOlm4frnm;1Zt^^2VHce,;%APB28aa;qH@fbO#!0;R3W97p>VI&"rfon_;_keS[kmL7f#lJuIBE+gIl4Jda(F<"=^`%/ek1I!tkEY3#ICoj?A@qeVI^q%g7UQ%"OqFKZf,(!C_eqI2aQf\^j;/N9n@hMH=l5AY?P6+/5oRrY\TAi#?BpP!YEnKKUZ[d>cpnd0@$AW>#.?>c@C:9(M_(91Mo<+"9m:?hifSS[\=WC&*q'FVT03d()1Ic.HDHIu$cYT41S)3Qk,jDi&c8-<s+U?!Id8Z_d?T3$2-FGB?=:,O_=7+C=GqS=N.\Js5?VH1e+hAf%^+g\V_hh"sCMaqG;cp4`W"l=a!c@AFB2FY.hBaONs357eKQ,$gjn9>-7*iTM+]0PPci"7WbS0tPdZY6ZniTo!:rbLm[(bjQ#K6C;um=o0-n:Y_<Qtr@#8ULsMDgn<mT\YF&ak7,TN/[QN8+<\ho)qEQ*R#HXmLII9"r`SISgg<";;aK1"j`mN5eQ)&:8YeCDdP]!hnXGuA;dtQ!r=r[B14g56sQhQK`q<?6o]<(^bKRhL9rFkimg(%P!1k-I@X8ZQk--p&O(FXHnZi316&S=kRg.<I$IJk]@A$W&Q,n!j:^FmHAnN*-6l3P[pfIH3^uXL1`0Xlrbb'8]:;,3Q<@NYJ/-(X$,f7i3BVl*I2MNg.jL/M2'?g.eu-PJM:ZOMbl0T-"2,?D)C0dC\CLYn),ZSRl#p;*n*#:m4O^P3h!YpVYInPDb5S'B_nE$(5+RL6;50]/dEf#8,$q"=cNR,(s"u(Cb"%Rq0,1YM>M'VkU3O3_\Vui?3FC`mJ2*.4O8sHnB=sN1_/TODP(c),a5;+#?KLWoc]1BMOJp1P9'd3mcd<]<ktd=GC2b0^[f9%sqmb7\5q\Tg]KnQ4qO>,ao^(TaZqRFS5#))S5,-dJIrUGACW1dBjV::+3l'eV^Sp8rgH/(4cVX0OC/Da.X;Tn`0q@D(?AfDeM6(fBqF-#K7RUP,:</R_#O5BqO0;+]6alqR)ittO:r8=lgC!%))-=Nld.KW!<@3Yqp(&DD\bX;f%G:[:G"=M:lUr/>LeU2Rc;uak?RNMNUq[+GVpf\r6lQ_\;u>5t^*/L`TFI=!naWF<iuK^:1ILEog#emHj'3j7%eUK20:d5<esOG-YraVc\I6KEkjN#Qe.E-*lh)=\j$ermK64?B,U87_d(tgFM9,5m/Y?pM82YD\eR3n>;>hnu;N&(HX-tqpVHNYJ)7<`Ns$ia$R/2c.S!?<=[E.!Apm$:H$o'U(n$CPJ0&`b:Se=EiHMR/&>Wu2A8=O>P8MGg]6?$mATV7e'K\=CK?qT#G_fi_C,=Z[G'DEDQSkjf"c2f_qSo>gF<.b900Uh.(=ML3bf")jA].m<g`<0I`Tj$c31*<lCs7u!qZF.agm&N9%)<VN33n$X$"o_-;A?2I(K7ra<UeYa@KBNSL8ChYUJ3DAK(-7#M_<L>TA$=(?W&(uopmacJl5If.07-?H^%CikMkA#]g633%1Vf&2&s+5c'&ZWqXsS^S'JLY^l;'VZ%M-l#NgUT9C$YqkOu:E@3('8iF.<h"pu.U]:]GM46%^7K6qK)\0Vin;r2lAH;"dT3mK;GPcV&726r?-[ifDHc2e1_TR"@f0Bi=8p5nd2NIB:_0+>#93Ld\Mhj*OWN&,j1l-FB!/(kbc"79.m1Y>[n#'8.:HYVikL:!&jc0jO>B%iogi'=mQ(Q-S`)6r`1qa0TP!8rT*V=`#;Fo#-WDcWBF7\t9*ZI$Z9t]K^Z.BKuu;f,q:m5*jTYS-doK"''$[9VbrDrU7iZE;IA:8%3*^B;&M>*0iN[$amlqL^KiLjB?'BfT<$^O`!$I&=U[`YKf#6MiC9m%LZkBKuh$\"'`<H%135mo'9<ai$J$fka$#\)972(Qr7Qm"P)WMC(dHXO?OgoT3cbsdVXu7AOE1EZLe1#nCMYtGUB`SMlXs>DA\NnT(-hNQKfk%"t>,Bm(i?QaPe%2]L,Im6]1m[[40mjDKltke$i?%!L4?d9^1&sYc(T(a#o@$FV$JkE<-^J0nQ/YU1@2jB*irU^-pfJXm3pF'b(6HP<=ldb]7^rkmSV%r9u-/0%c:")2=;pNW!NXU2KaXB,W-P9Ou7(VscLoBqHi2mM7+\2/[GB[s&%5+E>n-qlY,KY%mpd<2SNNoCLCqe4M3cYukd4QX+6f'N8nTf`@s8A_`.c(47RBSZ\)K9fOK*=WWpa^DF-2ga@+3M"s[h(+:GBOt>Z+HOEbqpk1.TPf@M*BH,+UVIIO)2"'KKZq)gfGk&jr^*lF1-B3+j"q>_RUHE+_EV@KWj/T?]DD\UI$h)p\ijeMZW/,S\>HZNp5dM'Y=T#^d&]Y^h.8>tOq0'lDjIS%(co<+Y.'-(IH^S4uEkAE%;-uaXii$B8OrHM!gr)W)M4(?j*2R?#S`m)6dH9GX^dgIr]\i5Y[hB-hml<R6IXR@!$L5fZe&dH#KDn5D;Hn9&HXou[i+qeYXdW>FB;BhtC[*;4_trI8mANON?f/7VL)$M0Ctn7#O).o5]8!<P\!M6u)lhP;_[kHO2q8jaZ$V,VUq&!#?YE)<]u*s!haP8PMEdSEB@#X%]mc5B\gk`<<+/X(ftj<gMlLMO>-+WV]O09kP!rC4%FgJ.<Q,/WaJ,[Y"#XVoXciG<H<%8LWn`.DZDaeU5Rgjq<FhbW/@JRX5RY>*_B%jup+.pTK_H0XUlVEk\.jHa+&0HF(-\OTV67O$&*Y7:X&[LiI2oZfT:\0?m_UDQ(J[2e^rcTW9aG11~>
+endstream
+endobj
+21 0 obj
+<<
+/Annots [ 22 0 R 23 0 R ]
+/Contents 24 0 R
+/MediaBox [ 0 0 841.8898 595.2756 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057itrf\056ign\056fr\057docs\057solutions\057itrf2020\057Transfo\055ITRF2020\137TRFs\056txt)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 126.4533 69.19055 275.2931 78.79055 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056ngs\056noaa\056gov\057TOOLS\057Htdp\057HTDP\055user\055guide\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 134.6173 57.19055 230.9494 66.79055 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3504
+>>
+stream
+Gb!;h>Bedl&q9SYW4-n]D+.MOp'kMj=T`gM36@,#p9^Y#G=G+k(He9r^XXnI_LWh>SN^]'8K=^6?'hap\l;s;!u4%hpt(u;>`@Y%Pm3Zej!eZ=@`#VcSajg_'?)[W]kN)XfW+$mTJZHT*Sg'S#c=b,>-lTZh,+Te@5_L'G-e.b[]434"Y`!R>7K'45V\7qXu/JL<.%MpG]n\G[1tdBHCCt7WpSFmSg.bA^K%KuB26b)Bt&/13UD^@*T+Yg`_5GkBLbqdZ]Lss7P@>*kK*rGIu!Q4>`KF+gU<1M[;h#B*LTbY95AoAD%qpi.n2,.:ol"Hk07mJjmm,?D4l8)0&GHN:B_u@AfrtU&B\krC5.<AA76CkS0n^0Ypo9Pe8r7(&O]d5aO4UWPF]?'Q;up5;-/;4.uk$kc*0/t+b.eg_6t8>A#UfFUFpYE.856/Abft%b;'fFpH5:om/dl:2OoM>j%i06Cl9YM>A7'1TW>$\UF<'q;FLe&%iYb>D`IV>hcejap5+'&IDahfpU5P;K0jHL_*GePA6Tm90tq4L\mfSO&1pE)TSAAF.pSM#?;o=[#+C\9]UOjUpX?>U7C_H+BnTDCb@9b?*,$uk__`('A\F;c?1o,>j9b'6P(^Ml=&gf70.8$H.N[0!3*V!]<0aj%CSmu^(bO.M;((SN[Y"Tm5@aO"``hnkL+,U3$F#geF5,6,U`o`%_oHZCk0J_:D?Z8?-$a\rlF'sJIQ5kX[@oG,LCY,=Y?BhtZ$V2cXYZW.aErN/(&5\S^[5Y<D8F#<:`gJi;8AL!$KreQmml<q[U0(->"K4NcoT(";m"`kXh>Y62(LcGWghR0Nd]A],G0%!&:$)C]h[Wuni$q+!+2I)"7U3/!q<U\bdEK!V$_]RX+F]b^/t<:QMb#ON4RK>ObIrm7.\GKhHl:l^\Z\b>eNUQK3!3K3mU+TJ85WAn5TIl<Rj+`R^k_Ro>/g<"'8EN"hCb;o8?d3l$+*9U\HP*-+`P8U!oSQ7_Mi[DJ.VeG2<qjCY&-i_E5IueX9]bn9(0&bA,+bB\*f5qtGl.YEu!1qg!t;pcPIl%)%f)e?&:b9)#UB*Gm*Gr/KY8rqI[BB<#qhbur+M&qWamr11_eC^)1$h@IcjmGP2de4O_WI7FG=7`>p8ZeBc^8(B'-r5N0cf@='RN&qqjLS6=4Xl4E&iuWrd<f0DEF>^,q\;\_3Ob65qbq`1j&nBFgqMG*WJm[+MgYLUUds9F!?Dj6Qg=ZF`J%qU([`1toT\+Nm:N>sJ[bErB:_V/DQ$'eihsj?G%1`VdV#b`)[T],%R^-S"]LH*H'K:nX;2?e7M]9X>W5"XR`Jn>/'NrVsil6;sfim(^/1[`uV'0il*Y^K\d\+*V%uRr3Bi&%Nm+AMOYmY/#c,`&"/#p,3-q^hrgk<ZAqI26uQtgMGI(ZskO+5kfF>o[Xd=(`l]ihHes2o)YdRf#$10Z!,X8+qP=VR#!@QM^41Q/#E!@17h/=b1ndW'hM.`R4J3o"HI6k]nQVN@lSA\;"\Q>hSB1C0`iQ8E2P7XYP60#kFtdVN7P?3+:<k[+]kDchmtLq5F9O=<nS4@VsN.J]1E,,QFSC$8FUYf(k:61NM=Qc.<2@VqHDpM0q-+#M^f1q1etZpI9O_Mr9r(]*sHC:e9(l[9%0]!W4M8'p(O!Na:uLq>lPUFBJr(=RcTfe+aeD^'8M)+c"#s'5hsp-aedY51(4aE5H).:ac,El`Wn60<K<.>,jKf9S_bcBY-2dDV;9k.WW6N_H^1S/7=b(OM!u;1A7GK"4CX^<L3%gA?)X@I)>r`&k@"n=dLk@"+g#\#&_#1/MkJ]2H'OpHf4T_*j/rFJVOWr[MJPBhtNqF#f=kcs=+6LQ%IgX4tCQZ4E"C1<9mDT;7Pd8_G4j_m,_J>Y5^?)+nnpITm/I5tah=4M$`.c$`fRV2`2[OlkY,b$44WHn0opYm.>O#r]R3./Ff>)>Ru?;o1ld6U5;&HN>ejW<--U%5F2DBcOH9MA],rNmmc&8EbZD]Iu75:79-n:_]KDVGkX0`9Dc]c#6Ts8>][mRf+K%rm$NR;S=OZ7*^P8OcgknFJ\?@fC$>B>[0lFf)E?-,o7XqWJPae;@NE%G@[Q0NCrM-H+E:Q;MnK+'.HQ>aa"omhoj,Ja&5U(5PZKL8a]5kcXC2'X7G)K'MH&ZV'sU%Q""I&HRToMk[$lcl&;ESd\G,d2X+7L8mSSGk7"6Lb'CPa+.IEPr/OaAAFE\oQK(S_TC)?J=C#hf,pI`IOg:2EHVu')i'rU)%PHkmkh8oCH8(S8c1"cVl`N=3;EPm-Ue!;)F"GtXQ=9oZ)_"DF?H>/,D]P80ngYgi4UNJ,TpLr#"gWeJaue!qfdq]),q8M<KeT5B0-PpRV.?N?V39g-^E^NnT]LH%bc@>*72DaW?LW7hBB:fhR\T7f=\qDn'MT8\X4.u1l0^J0,m?P$T7o)(Tsm:1:)8aIqWl3hEAV;W.Ki;.5".2!?biSg.%UgS5SO;HEVf;Pj8FT$aJZil^\L9`<4!mackINM%:Mg0jqA4YR1U2]WIR0g4;.-I`\`\W#\j,T`IFH[8V$X7He"jS&`r+q;t:cA)A,dB/4@p:U+L=Q_+g57oajZ7csTFbIEo,g6I&7uO]%@^RE)o\'?ZIuoAFsR?R20+A:]f(!%i7`iYT=.8Q5j?.s!:!nZO4)Qp7(7E@2^=X?/82T4hXpVaX,<>$`tB.HN.L]Gr$B*uU!9?btlM&+\JE9@l&iF&c'XrdjV2*n5Ib-o/?/0ff?.r<0dq^F6gLInbPUNWCg3cRI.2&ENJOj35+b;&2Rsn%:4erc#8`$FoD6g+m%]80V%(!Y$(\aC-Dg_?0;L!Y-4E7!rB66P2DSktfqIl;G/PVkma"P2R'/5GQ#:@Z3#r2nm<K5pT[-),N)D7?iUO?]K:B"drKIO&0"t0F2g>&bUfWYg<b5T>&2=XC+J!I`Z-GF6b7E;$C1;Tepu6OlF_s"]P'rK\QNTmZ&:Ya:OFT$7-hGGW>*URaHNX!%935adbFeNg9aaDMnbF3:\j9Q!HMF2]E8Ld&dC.j+g:R/:E,_rDm"q\%Zr!#H-A.`8]Q_XD`BRo%K;uZPE*G%c<fPM[0W_5nr1pmmiFdH>XiY(`goK!?")@^X2)KknFFtj(L'r^fV\"f0aB%r%O<'#D>oe/90au,XGHcA<A@?Bkf*n^TlUa4(L^$X@)uS[qYFY\TPha7+4'J/oG"M',YU%*o[(Qhm8[rG`g`1\*B&qiCM1Eg_kcpHT\lsA%r$7NcD3/_He/K57@$Yq]0lmKPEtD&'^Xk!BR/5qZ<WK7qUL-pFFND\_\n'^"^$8,L$"onM"8YVbD9G=hVgUp$Etn[FtYVTIT)qo$@]VN]TQT)3tdI964/0gFh$YHe`c:p&;<)gkT@U.@fi6pH1/$A)H?AI@XF!+/3rW)[pXh/IZ<fA(5rj^:`M%!lhPT',amj8jcIVW*6Qj^-X@%[a1+*5eK3d&3J&gF:Tc!#8`sD2?~>
+endstream
+endobj
+25 0 obj
+<<
+/Annots [ 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R ]
+/Contents 60 0 R
+/MediaBox [ 0 0 841.8898 595.2756 ]
+/Parent 2 0 R
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057beta\056ngs\056noaa\056gov\057NATRF2022\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 134.6173 539.9906 268.547 549.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057webapp\056csrs\055scrs\056nrcan\055rncan\056gc\056ca\057geod\057tools\055outils\057nad83\055docs\056php)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 116.7502 527.9906 262.2853 537.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057epsg\056org\057transformation\13710415\057ITRF2020\055to\055NAD83\055CSRS\055v8\0551\056html)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 110.5861 515.9906 298.1212 525.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+29 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056lmi\056is\057static\057files\057utgefid\137efni\057Maelingar\057isnet\137endurmael\1372016\137skyrsla\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 230.922 503.9906 368.5392 513.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057sirgas\056ipgh\056org\057densificaciones\055nacionales\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 120.3478 491.9906 267.8009 501.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+31 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057evrs\056bkg\056bund\056de\057results\055and\055products\057national\055reference\055frames\055and\055geoid\055models)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 137.7658 479.9906 316.5822 489.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+32 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057geodesie\056ign\056fr\057textes\055et\055decrets)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 136.6252 467.9906 272.3869 477.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+33 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057mapas2\056igac\056gov\056co\057server\057rest\057services\057geodesia\057redgravimetrica\057MapServer\057layers)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 158.6955 455.9906 297.7072 465.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+34 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linz\056govt\056nz\057guidance\057geodetic\055system\057coordinate\055systems\055used\055new\055zealand\057geodetic\055datums\057new\055zealand\055geodetic\055datum\0552000\055nzgd2000\057new\055zealand\055geodetic\055datum\0552000\055deformation\055model)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 113.0666 443.9906 236.2658 453.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+35 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057srgi\056big\056go\056id\057download\057info\137produk\057INFO\04520MODEL\04520DEFORMASI\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 154.84 431.9906 273.4103 441.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+36 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056jupem\056gov\056my\057storage\057upload\057pekeliling\057d9d1d\055pkpup\0553\0552021\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 163.6603 419.9906 297.8556 429.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+37 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057web1\056gsi\056go\056jp\057ENGLISH\057page\137e30030\056html)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 135.7814 407.9906 208.6798 417.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+38 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057earth\055info\056nga\056mil\057php\057download\056php\077file\075WGS\05384\04528G2296\04529\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 111.9494 395.9906 287.9845 405.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+39 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056inegi\056org\056mx\057temas\057geodesia\137activa\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 117.1759 383.9906 241.5353 393.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+40 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056rnpdigital\056go\056cr\057otros\137servicios\137linea\056htm)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 222.2384 371.9906 314.8712 381.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+41 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056nla\056gov\056jm\057sites\057default\057files\057Procedures\04520and\04520Standards\04520for\04520Digital\04520Cadastral\04520Surveying\04520in\04520Jamaica\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 228.7502 359.9906 378.4064 369.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+42 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057crs\056bkg\056bund\056de\057crs\057eu\055description\056php\077crs\137id\075Y1RSX1RVUkVGKyUyRitUUl9UTQ\0453D\0453D)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 147.2189 347.9906 201.59 357.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+43 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056ga\056gov\056au\057scientific\055topics\057positioning\055navigation\057positioning\055australia\057geodesy\057datums\055projections\057gda2020)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 187.0041 335.9906 225.1955 345.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+44 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056sz\056gov\056cn\057hdjl\057ywzsk\057ghj\057zrzyl\057content\057mpost\1379358232\056html)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 241.1877 323.9906 331.0197 333.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+45 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056ngii\056go\056kr\057lib\057file\057\045280907\04529\04520\045EA\045B5\045AD\045ED\04586\045A0\045EC\045A7\04580\045EB\045A6\045AC\045EC\045A0\04595\045EB\045B3\045B4\045EC\0459B\04590\04520\045EC\045B8\045A1\045EC\045A7\04580\045EC\045B8\045A1\045EB\0459F\04589\04520\045EC\04597\04585\045EB\045AC\045B4\04520\045EC\04586\0458C\045EA\045B0\0459C\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 140.9611 311.9906 257.3712 321.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+46 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056nlsc\056gov\056tw\057NLSC\137Content\056aspx\077n\0751742\046s\075327692\046sms\0759680)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 150.7892 299.9906 266.7033 309.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+47 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057openjicareport\056jica\056go\056jp\057pdf\05712386298\13701\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 110.5119 287.9906 227.5666 297.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+48 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057pagenet\056namria\056gov\056ph\057AGN\057Bulletins\057Bulletin\137PAGeNet\0552022\13705\13704\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 128.672 275.9906 222.8869 285.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+49 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057surveyofindia\056gov\056in\057pages\057continuously\055operating\055reference\055stations\055cors\055)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 160.84 263.9906 214.5587 273.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+50 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056geosa\056gov\056sa\057ar\057Pages\057faq\056aspx)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 123.2814 251.9906 187.4181 261.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+51 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057geotransform\056napr\056gov\056ge\057download\137help\056php\077filename\075HELP\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 155.4923 239.9906 286.5314 249.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 52 0 obj
 <<
-/Ascent 759.7656 /CapHeight 759.7656 /Descent -240.2344 /Flags 262148 /FontBBox [ -199.2188 -235.8398 1416.992 928.2227 ] /FontFile2 51 0 R 
-  /FontName /AAAAAA+BitstreamVeraSans-Bold /ItalicAngle 0 /MissingWidth 600.0977 /StemV 165 /Type /FontDescriptor
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057osgof\056gov\056ng\057wp\055content\057uploads\0572024\05701\057Geocentric\055Datum\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 123.8908 227.9906 262.3361 237.5906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 53 0 obj
 <<
-/BaseFont /AAAAAA+BitstreamVeraSans-Bold /FirstChar 0 /FontDescriptor 52 0 R /LastChar 127 /Name /F3+0 /Subtype /TrueType 
-  /ToUnicode 50 0 R /Type /Font /Widths [ 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 
-  600.0977 600.0977 348.1445 456.0547 520.9961 837.8906 695.8008 1001.953 872.0703 306.1523 
-  457.0312 457.0312 522.9492 837.8906 379.8828 415.0391 379.8828 365.2344 695.8008 695.8008 
-  695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 399.9023 399.9023 
-  837.8906 837.8906 837.8906 580.0781 1000 773.9258 762.207 733.8867 830.0781 683.1055 
-  683.1055 820.8008 836.9141 372.0703 372.0703 774.9023 637.207 995.1172 836.9141 850.0977 
-  732.9102 850.0977 770.0195 720.2148 682.1289 812.0117 773.9258 1103.027 770.9961 724.1211 
-  725.0977 457.0312 365.2344 457.0312 837.8906 500 500 674.8047 715.8203 592.7734 
-  715.8203 678.2227 435.0586 715.8203 711.9141 342.7734 342.7734 665.0391 342.7734 1041.992 
-  711.9141 687.0117 715.8203 715.8203 493.1641 595.2148 478.0273 711.9141 651.8555 923.8281 
-  645.0195 651.8555 582.0312 711.9141 365.2344 711.9141 837.8906 600.0977 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057ngi\056dlrrd\056gov\056za\057index\056php\057technical\055information\057geodesy\055and\055gps)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 167.2775 215.9906 238.4337 225.5906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 54 0 obj
 <<
-/PageMode /UseNone /Pages 56 0 R /Type /Catalog
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057ngs\056noaa\056gov\057datums\057newdatums\057release\056shtml)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 140.1837 203.9906 262.7775 213.5906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 55 0 obj
 <<
-/Author (GEODNET) /CreationDate (D:20260903112911-07'00') /Creator (\(unspecified\)) /Keywords (README SHA256: f3ce885d5371f3668917c5ca117013ce9211288e924b4a5b09182961f8ebad8e) /ModDate (D:20260903112911-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (Configured coordinate frames, epochs, limitations, and references) /Title (GEODNET RTK Service Coordinate Systems) /Trapped /False
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056ngs\056noaa\056gov\057TOOLS\057spc\056shtml)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 282.9142 203.9906 390.2189 213.5906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 56 0 obj
 <<
-/Count 5 /Kids [ 5 0 R 6 0 R 7 0 R 10 0 R 45 0 R ] /Type /Pages
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056geodetic\056gov\056hk\057common\057data\057pdf\057SatRef\137Coord\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 228.5041 191.9906 314.5627 201.5906 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 57 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3102
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056dscc\056gov\056mo\057files\057geographical\137geodetic\137control\057ENG\057Macaucoord\1372009\137web\137EN\137v201702\056pdf)
 >>
-stream
-GauHN=``?=&Ur?8k]._FhBaNdgrM\$P0I"XP%BcU<%:M:7_jfs)[@17[*5`2Sf-N1`I"#oQ:/sI4^[(U;)%J]<BnA8i55]sqM>82@IaiV-8nO]_oKmPDeI"t*&FgMpn$I>5*/&/1?!\(Q@WlcLB_VrVGAbt[9Z>>$Nad_#49DC(n]cKCO6bOD$;8/JN*jOUejb2O>^CKe"0&m@Mk^*_'DIhbb#=5,\Oi'm!SHqbLQ"#$/A=*KeY5e7*+=Bc\k>)XPtq*QPE<>pFuCIP98mLH8Ib15pd"a(QCL7jZn0*Hpokq7f<LcNbK(Q^sg/"Jn6Ju1+d6d((^kIZCI1a)IR?L(=G#SjJI:Z]tSCBb-6`QEj\<h,jN72&lXr=e>C__H/Ljh"$-+'gQHS[n:sL`SQMsX^WOGTj]Mau`N$NIRpnk)\%3:AlDI%':bHW`n7Q(s/E?o3B+\Gu!n/jZTb.\BC\OZAcQtj^ogZrfmn55FF:qnkYlT5Qj=__:,tsO#M']sC#hbc+4MurYP<`GUZaqW[MMo-=`c+#M^V5=WYHqu0Ml\B79O^jce=]e1&3%cA]RS4J_,@G7oEP+B%q?U#T#J&h&=o`0gt*Zi^;,lHFTj<FF,34eM/6@R1.KjJimau9=o"R(.BAP[*6_?O$hJJ+E28Yr@D!@JTMCV8QAGR@0sZQC/AJ)bqoZ]r#i.%a#t!+>8;$A$<`JTC6j1%'69dYlhskbo^m+!oY>DPdn4Ip?<=Cu]`2q0OK_LD8R)YCX/';itQ<+\r;3a7hL9dDqP.:VuKicKJ.&@Q(j.TGqPg*eG/5-E`%H)pV8?>*nd)lID&@`L$8Hoa3Lm86oZ@`*A17[h_:6]nk_WR(Ua<MBQJHris<#/%5j^&[Is.k5&VbY<1&IO?a7RIrGFhtpT]]R1W.-%s8,'ZC&8s</1VGRISAKiY*,onI[3Qna,4=*-b@!*4IKrF/2BE0pd<Z"s0$_mcLG8qlZDkM`L)N_e^PQ*ed-U'R:Y[$h%"mZ)JlK#?R\sHW)VaR-g,H^#1O#^P9"ejj_S12:^Sd3Ubg2#"IQE`a`]+I2dQgf7Facm3A>Y.'HE"P.4LWRd@5-skfF^Z+h!uS;S/;LtUO+oru]Qeh-XLUJUSj/q:5Yji&K3MKOo=;T0rW'Zk7lSr61G;7q6/;QH4H)dN-b;eM:Td@?8Wa&"VBY'5OQn$hBn_^G;AGder3[N;.</00$lNl((im!*&A@ZsIHe4<7@gBU_N!^P^-um<UN9CiD@t+g*nk-"G#*J9EO`(d<Ym0`V$*q',pgWClZ@@"26#Kbg<F%ePP\TY"WUTZm1@_LF.p%0+9?=\@C"neesUufhB\13'9uVW];E&R't@0g=M$!bEd[8[*<c:gpii(Xhu@fQ+n#2R0B9C$qfZ*i-k#!UO<5d?G(*`VZ9Bf'P[U=>:s0uA'@8s8l*:]Cg<Hc31t48V8<m'lC:i.Ge@d@WFH&a^^aX#o[IC(5'$$:qq[I$O&!JYn>TW!7T/)$;o)p)3:2npGBb>mBAW7Y4C+B6ml#]<GQMDcNr1K3%cA,iP0WJQoD^)IqHh`D:.E@2TIF8+*3/5rdj7`0@$Wto$LD3[\=j2U9J^5/b_g1QS0d<o$k!c4k.UBp,a_)II2u>%gM.,>]:+;D,>YjcP8OpLME-fIs9s'5\=Z-_#@$T"FSn+FhdmB=9DF;:MrYI7bHT)?bjjRX'm@u@S>>K5g'`Kg*qg1TT,CBh0Zt4b3rcgU^W>/fEdA2U;QrHJrJO9A6#,jOp"[QATNBMp-%6"*JIdP&Oe`C\aH6c8efS:Y`;2ApGl:B,t9Y!c`rNi+.)Z2"*28OSBaA<[[)UiQ]=L<4dIib-7MnP[>H*D5?me@SZFdllT"r@oHOJ0EYaLZC/')!T/,6_,&Re83uJal$9Q/N5T.\IQVXNLUm:/'GSD!_R?>npitBkkSN=0.NQ=4gpV,jR8q+)NUUTRk-g.E]*Ak@DFI?f-ns`hm/]O6?P]0B,+.h^ta)3kmDLj,.do'^JZJ%3:@rgjg):U`I5hhZ&Vnhp.$JATnZ@V\;MYlR(Nfk_pWpYAI=2FpXjiP`<LQh5!!74DaX*p6KMS8E](48N"jiX2MV7XTk5.Q#HD/eT3P20+mk=RdLMS[nfl_b.UC>gp47QO*:/ol"P!r<832jWa@]O3G)LXXC#@3iZ6mjfqr7bl4**6$++r>LhaY;DP9eI5,uiCnelm_PfJb!U92^OGD5AR1M(W``&!^M?(SRSc3htiPC-PT5gPV.mSS%'cfs9]pmTYW+@Gp=QFfZ[8T!pPY1\!mqsI0%nkOq9`ajXuU8log,(t)9aF7[_-=:8S_$a]h8nm88L%H#Mam[6L\bcm3n$>D?OlU9-J^Stj'Zk'/aF,JB!n.5<Z\KsLU%6m=CL3,GVY)[-gV.=rCSmRGEj4pt5pDEd]j$Z",O%17Q1i$lh<hAG>J6l-hVG@^G0G)uQHhADX\4sXDn<>=m1lNk,n-U]J(Y*mM,))Y(Ob)LQX)JG21LYir\uqNhgDe,M;t'q?X\<+hS\3WLddlpaF%Blf]!>kQ["8D+*Y.OaQ%UVY&g8Zms1KG)g&QP3<rHV)b<,&6M`@cKe6^=QX=VP`a*SFdGc?Yj`e./0m-krf-YTfG/b?1[IYZ.DD//?lgYr^219kUIN&DgaN^\oUU6pcIYiUV/3@ptc>G3u))J&X8db'/(P*f.@XJNnHI_`-A+h+n9gsHLZ`',%ra.!RG;?L<fb^&-H/#RtYC#lu>Dn'j,\CQS2Ob@W>.'f+fIIVEO/aH"J(_n7-nSEjmc%%^0b8q_LQ,sONjXu_aaBY9Pc?=YeJkH$_.Ks"&!kGi>>hQ!AK$?PJcasUhe<8dd$f&>T:=a.G?/Z$l&9ACWe*Q[-[=&$/E\sn&1h=1>p_PG3EgVi=_lh8;5e](MH6dGS+RZpH+;Q#p?_/m#-dmWMEM7#gtqG,4F1[V@uKI)*,KmJ'($>1@h%lp$N8QF2O`%pNKR\K71n0&rK)21I61tNrL10P\(%SM\n6Z&e;\FYhM8Yk__@PiL1r9A<YB-h=pERP0Y1uEf4q:^Rtl1@1(C'<Ejkf!:>2#1"Y"*=LW-XgNkj<i!\&@^~>endstream
+/Border [ 0 0 0 ]
+/Rect [ 208.2502 179.9906 398.0861 189.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 58 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3542
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056geodetic\056gov\056hk\057common\057data\057SatRef\057MoSRef\04520Coordinate\04520List\13720241203\056pdf)
 >>
-stream
-Gau0H>Beg[&q9SY^cD;OF<^tin&J5(/?;BP`Kc\SSg8`W.G/5WOU=Z?EI[osGQCB+(J(."RlDN]bQ.FP\H!`iU%#sW^V^d0^X(#k.n1@'o/jf?_]n^HA2lgNIV*i%c$bKeSkEqH,DIk$EAAQ*`Pgbjc$[PZgbVXIYoL%nY4!=,93H=Q8S2USag#)?%*S9'F,47'G`\'[rX<>D8fcG'Et(`IcR&/t.)u9]M(:IT9#](G_[i)tiLEU)n&S1uO&7=H+A(!M'F2/kZ_o>jX6^Rhs%VXjaaUU-\?695;!3q!S)@TahJ2(H(_*=?=".mRL(,A:_^N[DU=CB+PF8RF$knB<Zt1n#Gg>k#inBFOg!h3/(kkqN]AK8Yq,?22dFLIn^;oa)/AV&VNot?tIX;bu;E\SqgRd]=be6qYVYjiF0XiF:CteO>BUG[)m@HZsZ`QCX[*8KNrAr:\GM52;\$p1F14u)<SjDM115!e74G/T27HU;0g")a<>5#CJlTi@rGF0cU"GQYPS>p`OI[e,?ZfJKnD:oJ6WO*Qj=:MI<RC"Xds6A6p[`.15iOCL]:Mb9;CuRR*,"W,6ha^8N;\1aa@G<t-=jTM%DVJZUmIAXe&`6%ORoCq0ZH:^fI&A*NRtf&O'BT-5A5TeAD9I#0QW!:j`b0RYDk=F5Ml4]5$:d^H-b+2l/RUSVjXce<(g'N8*!uB`E#PllR61*"ch+FuTS=_l^Ck5p"u2MLX!H%WSrtVG#fbLNMuVN1E1:+5.s6$;!CRW!PQ%CkIQbI11\ULlf5j\)L"P>LX2F_>NuVT:@u*2b]I%*YKFbK_8fnL-,L,sn1aD=_N22%VMsfVjLi`,ub5X5?%g]GUls^702/mCR.;IJ5heY]L-Y+-L#moSpq.RuO(XG<7l$X80EOLP#h<(M!I6@SFp9GC1:q%CET[IpeLt^[m/cBogMJ':!Hl>d<BVd$hJQ;d.@qgWS_&Wt[VA1$)dU]ThF7A$s+mss,1+.uS)TDG]17QS1$=%Kf8,i__%YG2doB@!f*247S$DKL)b4M9<@ND8-T]5,QCpPC#YU"K4`7\FZY)3u?@pbG!anF2LfdO4M1h_dmC(S>"6H9NaGqT3gTKgi^$]:kiXTJR@f2n$i;2h2=NpQkee2j,D)(^2j2mX)f!9>H')3mQ0j<T3d,YV5h\5m9f6.TbU%dqNp2OVWWQ59_$qkI7?@?a!i-?534U8*bjrA4SM=?mRI02G9f7fff?QmZ"1Y/O1UCkm;aaEn5<YD<-@bS(snj2*LuUBlH/W3tuL(ds]%VL,-:?%cl;;%U<0)GEYb559pqObu,ON&D,Gids8sb@jbkE;.e+j<WNVW=7k-PMp2V8?jdq;?eCSc@,sW-HZU?)@SkD2+YLeaRDsB>:>mm$Ju'fn*k2`@AZ=H21@4LI+-qg4<=*-"j\a;p2tUl+$"JUE*a4Fc$4>'\+q2HO9Y0Xo_EHM(PNGh=Uih0a0UT-4Gq#rR$Xl]7Oilk\!R&$eup+`%;l46>jso#h+p0I-aDDh?4HRh7,:+i[aLk?M35U2kQGTZU.S&Mb5R[*L#H]j+Jb.Uidj>s%434>T@CqW"h9pT>9QYt!-k<o-W5tc`:\RMF.D=n[bLO7Qq!5r8=%B_2UXlKa2jkX+5Ue+)F`.u++f<W\b@qu.\rc?X^hghSlSsI276G''T;lZP("XbEXA-bP&MXelOqn2;1B_+,e>)Ma(@NIJB]p$N?i</&2!XXqC>NDP_AlD*E8eiWbch*4c*q!oMEe\V!Jh*(M:@+#4>M#+;HpGE\qpG9_X6GS5P89<>m%\=Y2uioj\Sk/.9n(K>sK)S,DX4"@(*:/6Qo-]k\o(NPLlGoke&G[f]:Q-,^<f&q]B]_El=Na/el2<$jJ9TN&leZn_S[Nu:KP4o?0_r#UGrd7WK!kUjcK=H[>@YN/L?+ioO0UK\mN'#b6`(9srF5*8?t7X#Gd#<[XJT*<94,.grbC9YK?8pc;^'XAUDQ_0sRk61XO7\Z<\>HpkNBQ1mP[d-$)H!_C=-,.k]B\)sqA0L[5eL2Wp(^]c;6L?Mn:fnhWrk]McFXT(Se7Z"klMOYelsu4KTE7B388"(&T-cd_C\IqRcTIJOT!u@p>_bAU,)2<$0T?N`/6Q%g&;M/)<[7&ZYe6Fu2&LifWl"gDP5uA3c[7dbnkJ\rDp)gBb7]r@`<`82hATXaH,Q&K^DGAC7nSLn2UAX=NUpQRF;WGc\<j>mCHre.<#a7b1CFC%O<As3O]$B(RVLs&=>RT+d//eZF-)PmNGW5X=lW?"P9(X(FtdscnOt/:`Y&HR@SSRYYLDQF@B1EdecIb\fT'R7[2fg^JR]WJm<p(q,"P;YrMWD+08bJ[C<iTYPOh*B&ELg(Vl1%$UF'bRD#?'E^KniQUmtLr`u%J#I$9!m3_%rDa@#,42,5@SLm%S1mh@,)ehlV2.H?+g%^4`R$>d!2[['?PRbqP8jq$?._)KcXHRcaJU(frf@$<f#WD%OU$:%dA+F%<cBs#Cp0UAg>-Hf>,C)Y8WNQ;nVB)S[5D2TWRFP5iA(\%mb9M2REp"*2kY*G5\ao>>4GplFkp/X`cmg$)d96nYi&5SI8)n/r3s"`^5=7^j9A5d"$'hQnCr#hUT@+,HoI$E+/T/@f1,Y95kF@f]!%+U"jdcbl@3%;fg`j^_fnSSkJhN'%V48)o#AJU9)?O(lO+K]u?A2L'o:FiH-<dt'/;&:UXi#:@X8>=rFlTjJf)&FN3I!_W.rW#HOA,p-,=IpD-cH.%2.7\f0rh-s]_Ks`"n_FRgM@`<Wgi!il*f$dc`uq/1Qpbq#*,Yk'(Y?2di%FeApScW;9S2-TIlJ>oqr&Gt\O`G!%oKEL1`C!O=6F*NMPSX-VUf:b?d6DCq!PBk+%c7(\;Of6\NjCu^4p\p(5XH'dP,q\.JY3>l?DeP#]?et0M'8?#pI%)b*Sc4LpQ!E+.MK\!kHV5/<6Z3!dP,p)KHOO20FlUn_FG0<#%o$&`N3\l!3ti!p7&!p)Yd:4.UnD\4W<-Y4md!`L]s0IYm1b0;0QN&R8h$'hQn;LjnQ@.4D1Sr'))8)b!X2VCDu(?#mbT6?rsZ>\fH*H!`D0n6EZOFWEm?Z3\[$UWI?G7;DK3#pD7@Q`id.E=)Qh02tIgMIQtcRC(m9'h,cA"Se)"Ae/8NHVs<b@d+B`2_1m^T7kB1=r!_o2n+t4/c>GAbQ'=YQ:hXqHr]%matIj17qW%Mp(-iXMH099]I_4/HIO%<=B2i[f;^>t;dO/Z/8j=mNk3`B="Vd+*`Z41X#KA+*DKBgcF@)n&hi]eMTm0E=23BognBVj%[5B,NHBGu.]Ia;2!_WnjUFrSfs%hEWd88]SXr,E<H53@"[uE[H)D",Fd;kG8#o5t<L)B;65ERdfhk*P<>Fhu+cCK.r/O7I8etEldnrIJ<L)676P`Z:mAM1dFd;n(7B9#r<L)B;6P`Z:n#.CfWetrKON"fRlY,679%Y.)m+-i3kG(0Mh-kPggFd4UXqaXBQu2,(OEM5:l>)?%n>^4<5eC^3lMiDaaP$Rns4c9*~>endstream
+/Border [ 0 0 0 ]
+/Rect [ 303.0627 167.9906 444.4572 177.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 59 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3212
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056geodetic\056gov\056hk\057common\057data\057parameter\0577P\137HK\137Macao\1372012\137en\056pdf)
 >>
-stream
-Gatm?=``=W&q9SYkc0&5AN&NL"OEVd-['$]O!Kld>I3i`^`m;F6]i:M8k/^D\%r.l*?DAD\7-6['&@5K?_\PF"bJtGqRou3]UQf'5>\"2ba1R8bCTIHSBk"14L"tMg7\ULi"J$T^^B0F)lAg_'HGkJC$:7Y#8VACa+G-%@;%Bfd-b$<ZP.`I3BdVi@A-CYYZuc%;TKqT:c<1?;=.6<,/b">R'0=@q]>rgWEE%J2O^.c4M*bK_fU>21Qd0J(BWH+=WYO20*TS.74D9V)jl,-q(K#q4W2!&U(YC+-K>bh&AWU/Hq%m"7>"W<a1'h8>?e2)Yt/@MRo/<(YS`gd\[%PNIch7]I+P\+QT-Zg/*$bt^L3i-Vg4%$hQD((:lYV20D#=lp@3&dd$!ZETCfk'GIQou059)LNjh.7Q`\rHmI0E+TOlm4frnm;1Zt^^2VHce,;%APB28aa;qH@fbO#!0;R3W97p>VI&"rfon_;_keS[kmL7f#lJuIBE+gIl4Jda(F<"=^`%/ek1I!tkEY3#ICoj?A@qeVI^q%g7UQ%"OqFKZf,(!C_eqI2aQf\^j;/N9n@hMH=l5AY?P6+/5oRrY\TAi#?BpP!YEnKKUZ[d>cpnd0@$AW>#.?>c@C:9(M_(91Mo<+"9m:?hifSS[\=WC&*q'FVT03d()1Ic.HDHIu$cYT41S)3Qk,jDi&c8-<s+U?!Id8Z_d?T3$2-FGB?=:,O_=7+C=GqS=N.\Js5?VH1e+hAf%^+g\V_hh"sCMaqG;cp4`W"l=a!c@AFB2FY.hBaONs357eKQ,$gjn9>-7*iTM+]0PPci"7WbS0tPdZY6ZniTo!:rbLm[(bjQ#K6C;um=o0-n:Y_<Qtr@#8ULsMDgn<mT\YF&ak7,TN/[QN8+<\ho)qEQ*R#HXmLII9"r`SISgg<";;aK1"j`mN5eQ)&:8YeCDdP]!hnXGuA;dtQ!r=r[B14g56sQhQK`q<?6o]<(^bKRhL9rFkimg(%P!1k-I@X8ZQk--p&O(FXHnZi316&S=kRg.<I$IJk]@A$W&Q,n!j:^FmHAnN*-6l3P[pfIH3^uXL1`0Xlrbb'8]:;,3Q<@NYJ/-(X$,f7i3BVl*I2MNg.jL/M2'?g.eu-PJM:ZOMbl0T-"2,?D)C0dC\CLYn),ZSRl#p;*n*#:m4O^P3h!YpVYInPDb5S'B_nE$(5+RL6;50]/dEf#8,$q"=cNR,(s"u(Cb"%Rq0,1YM>M'VkU3O3_\Vui?3FC`mJ2*.4O8sHnB=sN1_/TODP(c),a5;+#?KLWoc]1BMOJp1P9'd3mcd<]<ktd=GC2b0^[f9%sqmb7\5q\Tg]KnQ4qO>,ao^(TaZqRFS5#))S5,-dJIrUGACW1dBjV::+3l'eV^Sp8rgH/(4cVX0OC/Da.X;Tn`0q@D(?AfDeM6(fBqF-#K7RUP,:</R_#O5BqO0;+]6alqR)ittO:r8=lgC!%))-=Nld.KW!<@3Yqp(&DD\bX;f%G:[:G"=M:lUr/>LeU2Rc;uak?RNMNUq[+GVpf\r6lQ_\;u>5t^*/L`TFI=!naWF<iuK^:1ILEog#emHj'3j7%eUK20:d5<esOG-YraVc\I6KEkjN#Qe.E-*lh)=\j$ermK64?B,U87_d(tgFM9,5m/Y?pM82YD\eR3n>;>hnu;N&(HX-tqpVHNYJ)7<`Ns$ia$R/2c.S!?<=[E.!Apm$:H$o'U(n$CPJ0&`b:Se=EiHMR/&>Wu2A8=O>P8MGg]6?$mATV7e'K\=CK?qT#G_fi_C,=Z[G'DEDQSkjf"c2f_qSo>gF<.b900Uh.(=ML3bf")jA].m<g`<0I`Tj$c31*<lCs7u!qZF.agm&N9%)<VN33n$X$"o_-;A?2I(K7ra<UeYa@KBNSL8ChYUJ3DAK(-7#M_<L>TA$=(?W&(uopmacJl5If.07-?H^%CikMkA#]g633%1Vf&2&s+5c'&ZWqXsS^S'JLY^l;'VZ%M-l#NgUT9C$YqkOu:E@3('8iF.<h"pu.U]:]GM46%^7K6qK)\0Vin;r2lAH;"dT3mK;GPcV&726r?-[ifDHc2e1_TR"@f0Bi=8p5nd2NIB:_0+>#93Ld\Mhj*OWN&,j1l-FB!/(kbc"79.m1Y>[n#'8.:HYVikL:!&jc0jO>B%iogi'=mQ(Q-S`)6r`1qa0TP!8rT*V=`#;Fo#-WDcWBF7\t9*ZI$Z9t]K^Z.BKuu;f,q:m5*jTYS-doK"''$[9VbrDrU7iZE;IA:8%3*^B;&M>*0iN[$amlqL^KiLjB?'BfT<$^O`!$I&=U[`YKf#6MiC9m%LZkBKuh$\"'`<H%135mo'9<ai$J$fka$#\)972(Qr7Qm"P)WMC(dHXO?OgoT3cbsdVXu7AOE1EZLe1#nCMYtGUB`SMlXs>DA\NnT(-hNQKfk%"t>,Bm(i?QaPe%2]L,Im6]1m[[40mjDKltke$i?%!L4?d9^1&sYc(T(a#o@$FV$JkE<-^J0nQ/YU1@2jB*irU^-pfJXm3pF'b(6HP<=ldb]7^rkmSV%r9u-/0%c:")2=;pNW!NXU2KaXB,W-P9Ou7(VscLoBqHi2mM7+\2/[GB[s&%5+E>n-qlY,KY%mpd<2SNNoCLCqe4M3cYukd4QX+6f'N8nTf`@s8A_`.c(47RBSZ\)K9fOK*=WWpa^DF-2ga@+3M"s[h(+:GBOt>Z+HOEbqpk1.TPf@M*BH,+UVIIO)2"'KKZq)gfGk&jr^*lF1-B3+j"q>_RUHE+_EV@KWj/T?]DD\UI$h)p\ijeMZW/,S\>HZNp5dM'Y=T#^d&]Y^h.8>tOq0'lDjIS%(co<+Y.'-(IH^S4uEkAE%;-uaXii$B8OrHM!gr)W)M4(?j*2R?#S`m)6dH9GX^dgIr]\i5Y[hB-hml<R6IXR@!$L5fZe&dH#KDn5D;Hn9&HXou[i+qeYXdW>FB;BhtC[*;4_trI8mANON?f/7VL)$M0Ctn7#O).o5]8!<P\!M6u)lhP;_[kHO2q8jaZ$V,VUq&!#?YE)<]u*s!haP8PMEdSEB@#X%]mc5B\gk`<<+/X(ftj<gMlLMO>-+WV]O09kP!rC4%FgJ.<Q,/WaJ,[Y"#XVoXciG<H<%8LWn`.DZDaeU5Rgjq<FhbW/@JRX5RY>*_B%jup+.pTK_H0XUlVEk\.jHa+&0HF(-\OTV67O$&*Y7:X&[LiI2oZfT:\0?m_UDQ(J[2e^rcTW9aG11~>endstream
+/Border [ 0 0 0 ]
+/Rect [ 464.5939 167.9906 689.5431 177.5906 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 60 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3504
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2676
 >>
 stream
-Gb!;h>Bedl&q9SYW4-n]D+.MOp'kMj=T`gM36@,#p9^Y#G=G+k(He9r^XXnI_LWh>SN^]'8K=^6?'hap\l;s;!u4%hpt(u;>`@Y%Pm3Zej!eZ=@`#VcSajg_'?)[W]kN)XfW+$mTJZHT*Sg'S#c=b,>-lTZh,+Te@5_L'G-e.b[]434"Y`!R>7K'45V\7qXu/JL<.%MpG]n\G[1tdBHCCt7WpSFmSg.bA^K%KuB26b)Bt&/13UD^@*T+Yg`_5GkBLbqdZ]Lss7P@>*kK*rGIu!Q4>`KF+gU<1M[;h#B*LTbY95AoAD%qpi.n2,.:ol"Hk07mJjmm,?D4l8)0&GHN:B_u@AfrtU&B\krC5.<AA76CkS0n^0Ypo9Pe8r7(&O]d5aO4UWPF]?'Q;up5;-/;4.uk$kc*0/t+b.eg_6t8>A#UfFUFpYE.856/Abft%b;'fFpH5:om/dl:2OoM>j%i06Cl9YM>A7'1TW>$\UF<'q;FLe&%iYb>D`IV>hcejap5+'&IDahfpU5P;K0jHL_*GePA6Tm90tq4L\mfSO&1pE)TSAAF.pSM#?;o=[#+C\9]UOjUpX?>U7C_H+BnTDCb@9b?*,$uk__`('A\F;c?1o,>j9b'6P(^Ml=&gf70.8$H.N[0!3*V!]<0aj%CSmu^(bO.M;((SN[Y"Tm5@aO"``hnkL+,U3$F#geF5,6,U`o`%_oHZCk0J_:D?Z8?-$a\rlF'sJIQ5kX[@oG,LCY,=Y?BhtZ$V2cXYZW.aErN/(&5\S^[5Y<D8F#<:`gJi;8AL!$KreQmml<q[U0(->"K4NcoT(";m"`kXh>Y62(LcGWghR0Nd]A],G0%!&:$)C]h[Wuni$q+!+2I)"7U3/!q<U\bdEK!V$_]RX+F]b^/t<:QMb#ON4RK>ObIrm7.\GKhHl:l^\Z\b>eNUQK3!3K3mU+TJ85WAn5TIl<Rj+`R^k_Ro>/g<"'8EN"hCb;o8?d3l$+*9U\HP*-+`P8U!oSQ7_Mi[DJ.VeG2<qjCY&-i_E5IueX9]bn9(0&bA,+bB\*f5qtGl.YEu!1qg!t;pcPIl%)%f)e?&:b9)#UB*Gm*Gr/KY8rqI[BB<#qhbur+M&qWamr11_eC^)1$h@IcjmGP2de4O_WI7FG=7`>p8ZeBc^8(B'-r5N0cf@='RN&qqjLS6=4Xl4E&iuWrd<f0DEF>^,q\;\_3Ob65qbq`1j&nBFgqMG*WJm[+MgYLUUds9F!?Dj6Qg=ZF`J%qU([`1toT\+Nm:N>sJ[bErB:_V/DQ$'eihsj?G%1`VdV#b`)[T],%R^-S"]LH*H'K:nX;2?e7M]9X>W5"XR`Jn>/'NrVsil6;sfim(^/1[`uV'0il*Y^K\d\+*V%uRr3Bi&%Nm+AMOYmY/#c,`&"/#p,3-q^hrgk<ZAqI26uQtgMGI(ZskO+5kfF>o[Xd=(`l]ihHes2o)YdRf#$10Z!,X8+qP=VR#!@QM^41Q/#E!@17h/=b1ndW'hM.`R4J3o"HI6k]nQVN@lSA\;"\Q>hSB1C0`iQ8E2P7XYP60#kFtdVN7P?3+:<k[+]kDchmtLq5F9O=<nS4@VsN.J]1E,,QFSC$8FUYf(k:61NM=Qc.<2@VqHDpM0q-+#M^f1q1etZpI9O_Mr9r(]*sHC:e9(l[9%0]!W4M8'p(O!Na:uLq>lPUFBJr(=RcTfe+aeD^'8M)+c"#s'5hsp-aedY51(4aE5H).:ac,El`Wn60<K<.>,jKf9S_bcBY-2dDV;9k.WW6N_H^1S/7=b(OM!u;1A7GK"4CX^<L3%gA?)X@I)>r`&k@"n=dLk@"+g#\#&_#1/MkJ]2H'OpHf4T_*j/rFJVOWr[MJPBhtNqF#f=kcs=+6LQ%IgX4tCQZ4E"C1<9mDT;7Pd8_G4j_m,_J>Y5^?)+nnpITm/I5tah=4M$`.c$`fRV2`2[OlkY,b$44WHn0opYm.>O#r]R3./Ff>)>Ru?;o1ld6U5;&HN>ejW<--U%5F2DBcOH9MA],rNmmc&8EbZD]Iu75:79-n:_]KDVGkX0`9Dc]c#6Ts8>][mRf+K%rm$NR;S=OZ7*^P8OcgknFJ\?@fC$>B>[0lFf)E?-,o7XqWJPae;@NE%G@[Q0NCrM-H+E:Q;MnK+'.HQ>aa"omhoj,Ja&5U(5PZKL8a]5kcXC2'X7G)K'MH&ZV'sU%Q""I&HRToMk[$lcl&;ESd\G,d2X+7L8mSSGk7"6Lb'CPa+.IEPr/OaAAFE\oQK(S_TC)?J=C#hf,pI`IOg:2EHVu')i'rU)%PHkmkh8oCH8(S8c1"cVl`N=3;EPm-Ue!;)F"GtXQ=9oZ)_"DF?H>/,D]P80ngYgi4UNJ,TpLr#"gWeJaue!qfdq]),q8M<KeT5B0-PpRV.?N?V39g-^E^NnT]LH%bc@>*72DaW?LW7hBB:fhR\T7f=\qDn'MT8\X4.u1l0^J0,m?P$T7o)(Tsm:1:)8aIqWl3hEAV;W.Ki;.5".2!?biSg.%UgS5SO;HEVf;Pj8FT$aJZil^\L9`<4!mackINM%:Mg0jqA4YR1U2]WIR0g4;.-I`\`\W#\j,T`IFH[8V$X7He"jS&`r+q;t:cA)A,dB/4@p:U+L=Q_+g57oajZ7csTFbIEo,g6I&7uO]%@^RE)o\'?ZIuoAFsR?R20+A:]f(!%i7`iYT=.8Q5j?.s!:!nZO4)Qp7(7E@2^=X?/82T4hXpVaX,<>$`tB.HN.L]Gr$B*uU!9?btlM&+\JE9@l&iF&c'XrdjV2*n5Ib-o/?/0ff?.r<0dq^F6gLInbPUNWCg3cRI.2&ENJOj35+b;&2Rsn%:4erc#8`$FoD6g+m%]80V%(!Y$(\aC-Dg_?0;L!Y-4E7!rB66P2DSktfqIl;G/PVkma"P2R'/5GQ#:@Z3#r2nm<K5pT[-),N)D7?iUO?]K:B"drKIO&0"t0F2g>&bUfWYg<b5T>&2=XC+J!I`Z-GF6b7E;$C1;Tepu6OlF_s"]P'rK\QNTmZ&:Ya:OFT$7-hGGW>*URaHNX!%935adbFeNg9aaDMnbF3:\j9Q!HMF2]E8Ld&dC.j+g:R/:E,_rDm"q\%Zr!#H-A.`8]Q_XD`BRo%K;uZPE*G%c<fPM[0W_5nr1pmmiFdH>XiY(`goK!?")@^X2)KknFFtj(L'r^fV\"f0aB%r%O<'#D>oe/90au,XGHcA<A@?Bkf*n^TlUa4(L^$X@)uS[qYFY\TPha7+4'J/oG"M',YU%*o[(Qhm8[rG`g`1\*B&qiCM1Eg_kcpHT\lsA%r$7NcD3/_He/K57@$Yq]0lmKPEtD&'^Xk!BR/5qZ<WK7qUL-pFFND\_\n'^"^$8,L$"onM"8YVbD9G=hVgUp$Etn[FtYVTIT)qo$@]VN]TQT)3tdI964/0gFh$YHe`c:p&;<)gkT@U.@fi6pH1/$A)H?AI@XF!+/3rW)[pXh/IZ<fA(5rj^:`M%!lhPT',amj8jcIVW*6Qj^-X@%[a1+*5eK3d&3J&gF:Tc!#8`sD2?~>endstream
+Gb!;g>C3,7&q0MXW(50'@V@@qG$^KU16HFq%`l7h')S@3/ZBBdU]Gh,?_?UQZ4sKP>E&-gk8WDYh0i%@h'`r`nVa@'nI"4O)14Uq5Ra%)JQS?EZRZm;:4>FT>gkSn$T-J_D:\s9PCEuHK9H]p6aMV.nA'!#di)<j=FoLXRd'$HG:nU5"A]IXLOa!)Sj<RRffD;f5V,ZLCpKJSZTR5\]'d'<bZ6\Xj#\8$3A\.4fP*%N5+@RE&C)mO@cENj%#0$[&t[L.6*r6p[OOMXlrTSQ9<McC%*,Vm')LP"0lH3,J\<Gk7muB_U@)Wf[cqM7LXP/s?JZX@^b6uN;:QD]L(p[#M\$-FO&+foTG`c*R1]`a]d&Q4`r#(TnSok4BJt=2,td$`P!5M-\/JG.WpW%K,rG(!HL:S`%3dZ!Zf:q1HCunSOs=Es-?=d(iR6fB%,EV1@R@<)&tGgAfUN86+n0P==0)H"Xjo]Z7WliV'N@8HZ:^MI!iGrJ4I>&SE3hVGD@_;1#u%e"Zn3BuB/C;YYB+25h;H:>DSdRAg(8mtd=ftb7nCBol48$"i+D`q0iS+r2=F:q;&J,;H?9nalJ//8s#2nGFCKFrFSd+K2c7p+o5UOb3`PoJk^&=,9[J[[)2b_Ur@\#'TrX[=5^.`.X\_8]E@'-aWl62e6U$9FbYgRP$MXn/^7h>%&8]=!=j'$4KqF6-<:<00K0o(/@L:a22"'K+<IYuV_ua*CMMRTAKkpBJS6-is"t.\Z7,ouj><.4H2D\Asjl3aI)$un.ogb'>`t`W7>[=h/Njr-a*koAt5*'U!dJ5^eqpMAlL_hW*$*<]NV'!#)4H%ZL_2#';"#VII+(^DLSpGnlV(tc6*qrLa%D/eSqPJ]Y0nYM]<UV!<pCtmV782GiF$6/e=@PAC6Gb2n@gM_7C3]P^fQ.n8G"8&Md3Z1!&>SYM?TiA^#2P+X9`9EMP."s+0J]F@\'Q?%CN[R6&onLaj6=mlm)[MhRA&q-,Rae@<>1$6_f93@c&ObG@\@9R#;FGd4C_qa/WIVTN)>0%O/#<.ipI)LOr(SdUBsV-9%PY'%F-:MKJ#ZQ_,u=>*lfflINY>.`*X*M"G:@r(URkB$slI,?sks`jFp"o\2]p`=1f4/G146FKAcc]aL1G2"2jU4GG"l3imD;f7g@T4MMK'uDEJpCj#6C]R!SulQ7@/R0ggnh^t4Vtrcht?D`V1o;OEf)Cr&unnf9!n]W<N7#ZIe(:q2Lc0LOT@XcI!'0s<9R(k#t8NKc+VA$KDM9rL!)qNHi,_^Mb$imQVKjU-Kg4+3*SGXYh7E5i^,6?+`7ZUcYhQ)Xu(ZNVJZ=[GPtjRg9q]&Mp9Pqp62N;B=(2X&Fc@OkQNMr_r%RN:p=#3K<,9?W\QVrZH%bM#Eq^5U'lN24i5QY'XR'eNS^#QDN7c7nE7E5)U_DN`*C@k/34%&6NT<lTak'Ccq(Lkdbp)39ctE1%*b:-Z5\Q^nTA(:B0\WSr!<AJt&mhGlCc)<FZ]Z3AeiVGX.hJ3^FlYL/:kC\p25!h7M=X<N=pLkss.(V!o,@TiH`P07^k]Xjk<=eh[n.*kjaZ4QAbkB5Glct(Da0S8)?pc&A>\Vp!^<>I>o;D-jh_!jCDA6Sm]K)O*+*/DApFN*"VSBda[j&U]ep]6kiWmNhOW7)H_acXiQ1$FM,_[LGOF^16>M]%asQ;.+mOcd#_in,r-$V&`F/"O>3r-f3K'*lh]+--h<=1V9<R<\NdTaYJNU88q!)LjF@cH9FXG#@klfW*ViSe;-(XQq:EDY6I3fn_?o&/]@4[&R1:Ye2F5dXm<#KA)T^&JJ*G.'KZtpiE,Y=RF7=9aPX<!i4a$3\m.0kn,Yl\+QOk,BQ3A9oR0g+3fi'l08(2X9APTl*@R,'/7e=j9q4Z*n!epk_.`>;GD$an/YEC+!)9</X/k;Q./._1%Nb1g'9?,]$bk5@KQ<lNf1T8^LVntKJQY*;74ZO,?fe;%e7j<VnDq(js$;(]YUc2LNoEfDdne]nA?RB>TEm^'9'>KYIW;-;&&[*8mek,dQFDk$TE,DAR0"b0epG5d$Wt"U.$4?Q(m*X"g?M7Pe]6WKRLg&J@+EI%9[#BZ3PhU0FUCb!r47&L9B9o`uR=t*\Q:!9ZJ3a)U+;WPV$R]L9kPQKI?JD)iXkO@Ds#a$'\XJa,A@7p+Ri*dKO,a>:(_C,WF!2,O`U2fGAm3[22to@e=g7RuQt0K_s"d?3GRM**k=RGfet&:q,Yg8<4bbTq"9S?^p+?EB9JH$:m(2WIPs:+9rgT1R:."S>]\6]VO54+a+]>jlpqXDp3j$\<^4':6))p8m@,FT#,=M`b!>]D=5G0=pS9\ag2W&AR;:V[[Bfl6*u@M?K)JEgY%0"Su1c'rFY7EHi&\n2Im?@]G<5Sg[M5pm+/\W?bSu5FH;p"[%;m1But<RJUIH(`s$A8/OZKU$_:rB0aZptjDdD&o[nP&R:ej=TBZRXn5"F=h-\qa/^#)2el'A7A7&HY.P8qIDhuiukLHsta4"n;iUuZ=H_'`ZLRnBdPO.tu9:,n&Z-'-UL*iL)Z9ZGUj,33jIou&WM)pMViU[u_OQ:C5m6r7'jpGldL].pg3O#f`as8LdRm+;+8?*I`:*ZfY%m2X>j1#k<TtdOgjVu9OVdQgZ(M?c@A`+Gm--)?k_TAF%eCQe~>
+endstream
 endobj
 61 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2676
+/Author (GEODNET)
+/CreationDate (D\07220260903112911\05507\04700\047)
+/Creator (\050unspecified\051)
+/Keywords (README SHA256\072 4ef7e816af8c070828d159900b7c08e97c9c631e63320f3c4b31210894746cde)
+/ModDate (D\07220260903112911\05507\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (Configured coordinate frames\054 epochs\054 limitations\054 and references)
+/Title (GEODNET RTK Service Coordinate Systems)
+/Trapped /False
 >>
-stream
-Gb!;g>C3,7&q0MXW(50'@V@@qG$^KU16HFq%`l7h')S@3/ZBBdU]Gh,?_?UQZ4sKP>E&-gk8WDYh0i%@h'`r`nVa@'nI"4O)14Uq5Ra%)JQS?EZRZm;:4>FT>gkSn$T-J_D:\s9PCEuHK9H]p6aMV.nA'!#di)<j=FoLXRd'$HG:nU5"A]IXLOa!)Sj<RRffD;f5V,ZLCpKJSZTR5\]'d'<bZ6\Xj#\8$3A\.4fP*%N5+@RE&C)mO@cENj%#0$[&t[L.6*r6p[OOMXlrTSQ9<McC%*,Vm')LP"0lH3,J\<Gk7muB_U@)Wf[cqM7LXP/s?JZX@^b6uN;:QD]L(p[#M\$-FO&+foTG`c*R1]`a]d&Q4`r#(TnSok4BJt=2,td$`P!5M-\/JG.WpW%K,rG(!HL:S`%3dZ!Zf:q1HCunSOs=Es-?=d(iR6fB%,EV1@R@<)&tGgAfUN86+n0P==0)H"Xjo]Z7WliV'N@8HZ:^MI!iGrJ4I>&SE3hVGD@_;1#u%e"Zn3BuB/C;YYB+25h;H:>DSdRAg(8mtd=ftb7nCBol48$"i+D`q0iS+r2=F:q;&J,;H?9nalJ//8s#2nGFCKFrFSd+K2c7p+o5UOb3`PoJk^&=,9[J[[)2b_Ur@\#'TrX[=5^.`.X\_8]E@'-aWl62e6U$9FbYgRP$MXn/^7h>%&8]=!=j'$4KqF6-<:<00K0o(/@L:a22"'K+<IYuV_ua*CMMRTAKkpBJS6-is"t.\Z7,ouj><.4H2D\Asjl3aI)$un.ogb'>`t`W7>[=h/Njr-a*koAt5*'U!dJ5^eqpMAlL_hW*$*<]NV'!#)4H%ZL_2#';"#VII+(^DLSpGnlV(tc6*qrLa%D/eSqPJ]Y0nYM]<UV!<pCtmV782GiF$6/e=@PAC6Gb2n@gM_7C3]P^fQ.n8G"8&Md3Z1!&>SYM?TiA^#2P+X9`9EMP."s+0J]F@\'Q?%CN[R6&onLaj6=mlm)[MhRA&q-,Rae@<>1$6_f93@c&ObG@\@9R#;FGd4C_qa/WIVTN)>0%O/#<.ipI)LOr(SdUBsV-9%PY'%F-:MKJ#ZQ_,u=>*lfflINY>.`*X*M"G:@r(URkB$slI,?sks`jFp"o\2]p`=1f4/G146FKAcc]aL1G2"2jU4GG"l3imD;f7g@T4MMK'uDEJpCj#6C]R!SulQ7@/R0ggnh^t4Vtrcht?D`V1o;OEf)Cr&unnf9!n]W<N7#ZIe(:q2Lc0LOT@XcI!'0s<9R(k#t8NKc+VA$KDM9rL!)qNHi,_^Mb$imQVKjU-Kg4+3*SGXYh7E5i^,6?+`7ZUcYhQ)Xu(ZNVJZ=[GPtjRg9q]&Mp9Pqp62N;B=(2X&Fc@OkQNMr_r%RN:p=#3K<,9?W\QVrZH%bM#Eq^5U'lN24i5QY'XR'eNS^#QDN7c7nE7E5)U_DN`*C@k/34%&6NT<lTak'Ccq(Lkdbp)39ctE1%*b:-Z5\Q^nTA(:B0\WSr!<AJt&mhGlCc)<FZ]Z3AeiVGX.hJ3^FlYL/:kC\p25!h7M=X<N=pLkss.(V!o,@TiH`P07^k]Xjk<=eh[n.*kjaZ4QAbkB5Glct(Da0S8)?pc&A>\Vp!^<>I>o;D-jh_!jCDA6Sm]K)O*+*/DApFN*"VSBda[j&U]ep]6kiWmNhOW7)H_acXiQ1$FM,_[LGOF^16>M]%asQ;.+mOcd#_in,r-$V&`F/"O>3r-f3K'*lh]+--h<=1V9<R<\NdTaYJNU88q!)LjF@cH9FXG#@klfW*ViSe;-(XQq:EDY6I3fn_?o&/]@4[&R1:Ye2F5dXm<#KA)T^&JJ*G.'KZtpiE,Y=RF7=9aPX<!i4a$3\m.0kn,Yl\+QOk,BQ3A9oR0g+3fi'l08(2X9APTl*@R,'/7e=j9q4Z*n!epk_.`>;GD$an/YEC+!)9</X/k;Q./._1%Nb1g'9?,]$bk5@KQ<lNf1T8^LVntKJQY*;74ZO,?fe;%e7j<VnDq(js$;(]YUc2LNoEfDdne]nA?RB>TEm^'9'>KYIW;-;&&[*8mek,dQFDk$TE,DAR0"b0epG5d$Wt"U.$4?Q(m*X"g?M7Pe]6WKRLg&J@+EI%9[#BZ3PhU0FUCb!r47&L9B9o`uR=t*\Q:!9ZJ3a)U+;WPV$R]L9kPQKI?JD)iXkO@Ds#a$'\XJa,A@7p+Ri*dKO,a>:(_C,WF!2,O`U2fGAm3[22to@e=g7RuQt0K_s"d?3GRM**k=RGfet&:q,Yg8<4bbTq"9S?^p+?EB9JH$:m(2WIPs:+9rgT1R:."S>]\6]VO54+a+]>jlpqXDp3j$\<^4':6))p8m@,FT#,=M`b!>]D=5G0=pS9\ag2W&AR;:V[[Bfl6*u@M?K)JEgY%0"Su1c'rFY7EHi&\n2Im?@]G<5Sg[M5pm+/\W?bSu5FH;p"[%;m1But<RJUIH(`s$A8/OZKU$_:rB0aZptjDdD&o[nP&R:ej=TBZRXn5"F=h-\qa/^#)2el'A7A7&HY.P8qIDhuiukLHsta4"n;iUuZ=H_'`ZLRnBdPO.tu9:,n&Z-'-UL*iL)Z9ZGUj,33jIou&WM)pMViU[u_OQ:C5m6r7'jpGldL].pg3O#f`as8LdRm+;+8?*I`:*ZfY%m2X>j1#k<TtdOgjVu9OVdQgZ(M?c@A`+Gm--)?k_TAF%eCQe~>endstream
 endobj
 xref
 0 62
 0000000000 65535 f 
-0000000061 00000 n 
-0000000128 00000 n 
-0000000235 00000 n 
-0000000432 00000 n 
-0000000537 00000 n 
-0000000760 00000 n 
-0000000965 00000 n 
-0000001170 00000 n 
-0000001391 00000 n 
-0000001598 00000 n 
-0000001828 00000 n 
-0000002016 00000 n 
-0000002244 00000 n 
-0000002467 00000 n 
-0000002706 00000 n 
-0000002910 00000 n 
-0000003151 00000 n 
-0000003345 00000 n 
-0000003587 00000 n 
-0000003932 00000 n 
-0000004155 00000 n 
-0000004381 00000 n 
-0000004581 00000 n 
-0000004804 00000 n 
-0000005004 00000 n 
-0000005211 00000 n 
-0000005494 00000 n 
-0000005731 00000 n 
-0000006003 00000 n 
-0000006225 00000 n 
-0000006571 00000 n 
-0000006790 00000 n 
-0000006996 00000 n 
-0000007223 00000 n 
-0000007456 00000 n 
-0000007651 00000 n 
-0000007872 00000 n 
-0000008093 00000 n 
-0000008318 00000 n 
-0000008522 00000 n 
-0000008715 00000 n 
-0000008928 00000 n 
-0000009179 00000 n 
-0000009418 00000 n 
-0000009644 00000 n 
-0000010109 00000 n 
-0000010873 00000 n 
-0000028844 00000 n 
-0000029116 00000 n 
-0000030468 00000 n 
-0000031225 00000 n 
-0000048480 00000 n 
-0000048757 00000 n 
-0000050118 00000 n 
-0000050188 00000 n 
-0000050617 00000 n 
-0000050703 00000 n 
-0000053897 00000 n 
-0000057531 00000 n 
-0000060835 00000 n 
-0000064431 00000 n 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000170 00000 n 
+0000000387 00000 n 
+0000000602 00000 n 
+0000011034 00000 n 
+0000011101 00000 n 
+0000011208 00000 n 
+0000012519 00000 n 
+0000012787 00000 n 
+0000030759 00000 n 
+0000031524 00000 n 
+0000032846 00000 n 
+0000033120 00000 n 
+0000050376 00000 n 
+0000051134 00000 n 
+0000051240 00000 n 
+0000051441 00000 n 
+0000055076 00000 n 
+0000055277 00000 n 
+0000058582 00000 n 
+0000058809 00000 n 
+0000059067 00000 n 
+0000059311 00000 n 
+0000062908 00000 n 
+0000063359 00000 n 
+0000063571 00000 n 
+0000063844 00000 n 
+0000064106 00000 n 
+0000064390 00000 n 
+0000064618 00000 n 
+0000064904 00000 n 
+0000065122 00000 n 
+0000065403 00000 n 
+0000065835 00000 n 
+0000066097 00000 n 
+0000066365 00000 n 
+0000066595 00000 n 
+0000066863 00000 n 
+0000067093 00000 n 
+0000067330 00000 n 
+0000067670 00000 n 
+0000067952 00000 n 
+0000068272 00000 n 
+0000068536 00000 n 
+0000069065 00000 n 
+0000069329 00000 n 
+0000069565 00000 n 
+0000069834 00000 n 
+0000070103 00000 n 
+0000070328 00000 n 
+0000070585 00000 n 
+0000070845 00000 n 
+0000071109 00000 n 
+0000071340 00000 n 
+0000071560 00000 n 
+0000071809 00000 n 
+0000072111 00000 n 
+0000072392 00000 n 
+0000072663 00000 n 
+0000075432 00000 n 
 trailer
 <<
-/ID 
-[<21592ba2caf5a7f2c6827aaea04097bc><21592ba2caf5a7f2c6827aaea04097bc>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 55 0 R
-/Root 54 0 R
 /Size 62
+/Root 1 0 R
+/Info 61 0 R
+/ID [ (\041Y\053\242\312\365\247\362\306\202z\256\240\100\227\274) (\041Y\053\242\312\365\247\362\306\202z\256\240\100\227\274) ]
 >>
 startxref
-67199
+75905
 %%EOF
