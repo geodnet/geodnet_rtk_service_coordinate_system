@@ -251,9 +251,11 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 
 #### B. GEODNET Proprietary RTCM Message (Type 4054)
 * **Message ID:** Type 4054 (Official GEODNET Assigned Proprietary Message).
-* **Frame Size:** 13 bytes total over the wire (7 bytes payload + 3 bytes header + 3 bytes CRC).
-* **Bit Allocation:**
+* **Frame Size:** 14 bytes total over the wire (8 bytes payload + 3 bytes header + 3 bytes CRC).
+* **Bit Allocation (matches RTKLIB `decode_type4054`):**
   * Message Number: 4054 (12 bits)
+  * Version: `ver` (3 bits, default `0`)
+  * Message Subtype: `subtype` (9 bits, `1` = Geoid Undulation & Vertical Datum)
   * Station ID: 12 bits
   * Undulation $N$ in millimeters: signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
   * Vertical Datum ID: 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
