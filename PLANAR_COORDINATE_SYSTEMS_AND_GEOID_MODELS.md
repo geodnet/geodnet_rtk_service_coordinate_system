@@ -251,15 +251,33 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 
 #### B. GEODNET Proprietary RTCM Message (Type 4054)
 * **Message ID:** Type 4054 (Official GEODNET Assigned Proprietary Message).
-* **Frame Size:** 14 bytes total over the wire (8 bytes payload + 3 bytes header + 3 bytes CRC).
-* **Bit Allocation (matches RTKLIB `decode_type4054`):**
+* **Frame Header (matches RTKLIB `decode_type4054`):**
   * Message Number: 4054 (12 bits)
   * Version: `ver` (3 bits, default `0`)
-  * Message Subtype: `subtype` (9 bits, `1` = Geoid Undulation & Vertical Datum)
-  * Station ID: 12 bits
-  * Undulation $N$ in millimeters: signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
-  * Vertical Datum ID: 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
-  * CRC-24Q: 24 bits
+  * Message Subtype: `subtype` (9 bits)
+
+##### Subtype 1: Geoid Undulation & Vertical Datum (14 bytes total)
+* **Subtype ID:** `1`
+* **Station ID:** 12 bits
+* **Undulation ($N$) in millimeters:** signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
+* **Vertical Datum ID:** 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
+* **CRC-24Q:** 24 bits
+
+##### Subtype 2: ITRF2020 Coordinate Info, Velocity & Quality Metadata (48 bytes total)
+* **Subtype ID:** `2`
+* **Station ID:** 12 bits
+* **Station Marker Name:** 4 ASCII characters (32 bits, e.g. `"PARI"`, `"DEN1"`)
+* **Coordinate System ID:** 8 bits (1=ITRF2020, 2=ITRF2014, 3=NAD83(2011), 4=ETRF2000, 5=WGS84(G2139))
+* **Observation Date:** 21 bits (Year 12 bits, Month 4 bits, Day 5 bits)
+* **Reference Epoch:** 24 bits (decimal year $\times 1000$, e.g. $2026.500 \to 2026500$)
+* **Cartesian ECEF Coordinates ($X, Y, Z$):** $3 \times 38 = 114\text{ bits}$ (signed 38 bits each at $0.1\text{ mm}$ resolution, following RTCM 1005 standard)
+* **ECEF Velocities ($V_x, V_y, V_z$):** $3 \times 16 = 48\text{ bits}$ (signed 16 bits each at $0.1\text{ mm/yr}$ resolution)
+* **95% Confidence Sigmas ($\sigma_{X95}, \sigma_{Y95}, \sigma_{Z95}$):** $3 \times 12 = 36\text{ bits}$ (unsigned 12 bits each at $0.1\text{ mm}$ resolution)
+* **Ambiguity Resolution Fix Rate (`iar`):** 10 bits ($0\text{ to }1000$ at $0.1\%$ resolution, $0.0\text{ to }100.0\%$)
+* **CRC-24Q:** 24 bits
+
+Also emitted via standard **RTCM 1029 Text Message**:
+`CRD:STN=PARI,SYS=ITRF2020,EP=2026.50,XYZ=4201275.539,172405.660,4779878.169,V=-12.9,+17.8,+10.5,S95=5.0mm,IAR=99.8%`
 
 ---
 
