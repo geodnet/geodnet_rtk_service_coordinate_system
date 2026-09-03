@@ -18,7 +18,7 @@ The service outputs Earth-centered Earth-fixed or geodetic coordinates with elli
 | `AUTO_ITRF2014` | ITRF2014 at the observation epoch. |
 | `AUTO_WGS84` | Legacy WGS84(G2139) output at the midpoint of the observation year. See Section 4. |
 | `BRDC` | Broadcast ephemeris data; this is not a coordinate-frame output. |
-| `NATRF2020` | Legacy North America test mountpoint label, not an official frame name. Confirm its delivered frame and epoch in service metadata; the converter provides a NATRF2022 transformation. |
+| `NATRF2022` | North America plate-fixed test service using NATRF2022. Confirm the coordinate epoch in service metadata. |
 | `SIRGAS2000(YYYY.5)` | South America test service using SIRGAS2000 at the midpoint of the named year. |
 
 Mountpoint availability and coverage are operational service properties and may differ from the transformation catalogue below.
@@ -138,7 +138,27 @@ The country code controls routing. A country code indicates jurisdiction, not ne
 - **[R33] Macao mapping authority**, [Geodetic datum explanatory notes, Appendix 1](https://www.dscc.gov.mo/files/geographical_geodetic_control/ENG/Macaucoord_2009_web_EN_v201702.pdf) - ITRF2005 at published epoch 2008.37568. The legacy DSCC website is migrating to DSSCU.
 - **[R34] Macao MoSRef / Hong Kong Lands Department**, [MoSRef coordinate list, 2024-12-03](https://www.geodetic.gov.hk/common/data/SatRef/MoSRef%20Coordinate%20List_20241203.pdf) and [Hong Kong-Macao transformation with a check example](https://www.geodetic.gov.hk/common/data/parameter/7P_HK_Macao_2012_en.pdf).
 
-## 6. Feedback and change control
+## 6. Real-Time RTCM Coordinate and Geoid Broadcast Services
+
+GEODNET RTK servers host a multi-model global and regional hybrid geoid engine, dynamically interpolating physical elevations and geoid undulations at the rover's location and streaming broadcast solutions directly over standard and proprietary RTCM channels:
+
+### 6.1 Standard Channel: RTCM Type 1029 (Unicode Text Message)
+Supported natively by all commercial GNSS rover software (Trimble Access, Leica Captivate, Carlson SurvCE, FieldGenius, Emlid Reach, CHCNAV LandStar) without firmware modification:
+* **Geoid & Physical Elevation String:**
+  `GEOID:N=-17.111m,H=1667.111m,NOAA GEOID18 (1-arcmin CONUS)`
+* **Station Coordinate & Tectonic Velocity String (122 characters):**
+  `CRD:F8B3B7422B01,ITRF2020,EP=2026.50,XYZ=4201275.539,172405.660,4779878.169,V=-12.949,+17.753,+10.544,S95=5.0mm,IAR=99.8%`
+
+### 6.2 Proprietary Binary Channel: GEODNET RTCM Type 4054
+Uses GEODNET's assigned proprietary RTCM ID **4054** with a standard header (`ver:3`, `subtype:9`) matching the RTKLIB `decode_type4054` specification:
+* **Subtype 1: Geoid Undulation & Vertical Datum (14 bytes total over wire):**
+  Signed 20-bit millimeter geoid undulation $N$ ($\pm 524.287\text{ m}$ range at $1.0\text{ mm}$ resolution) + 8-bit Vertical Datum ID (NAVD88, CGVD2013, ODN, IGN69, DHHN2016, AHD, NZVD2016, Tokyo Peil, NAP, REDNAP, LN02, EGM2008).
+* **Subtype 2: Station Coordinate, Tectonic Velocity & Quality Metadata (57 bytes total over wire):**
+  Carries the full 12-character station identifier (96 bits), coordinate system code, observation date (Year, Month, Day), reference epoch, 38-bit ECEF $X, Y, Z$ at $0.1\text{ mm}$ resolution (RTCM 1005 standard), signed 20-bit tectonic plate velocities $V_x, V_y, V_z$ at **$0.001\text{ mm/year}$ ($1\text{ \mu m/year}$)** resolution (bounded to $\pm 524.287\text{ mm/year}$ for Earth plate tectonic motions), 12-bit 95% sigmas ($0.1\text{ mm}$ resolution), 10-bit integer ambiguity resolution fix rate (`iar`, $0.1\%$ resolution), and CRC-24Q parity.
+
+For detailed technical specifications, projection formulas, and model comparisons, refer to [**PLANAR_COORDINATE_SYSTEMS_AND_GEOID_MODELS.md**](PLANAR_COORDINATE_SYSTEMS_AND_GEOID_MODELS.md).
+
+## 7. Feedback and change control
 
 Corrections should include the responsible authority, realization name, coordinate epoch, source URL, publication date or version, and whether a deformation model is required. Send corrections to **Dr. Yudan Yi** at **yudan@geodnet.com**.
 
