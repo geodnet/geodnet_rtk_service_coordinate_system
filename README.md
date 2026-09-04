@@ -146,13 +146,13 @@ GEODNET RTK servers host a multi-model global and regional hybrid geoid engine, 
 Supported natively by all commercial GNSS rover software (Trimble Access, Leica Captivate, Carlson SurvCE, FieldGenius, Emlid Reach, CHCNAV LandStar) without firmware modification:
 * **Geoid & Physical Elevation String:**
   `GEOID:N=-17.111m,H=1667.111m,NOAA GEOID18 (1-arcmin CONUS)`
-* **Station Coordinate & Tectonic Velocity String (122 characters):**
+* **Station Coordinate & Tectonic Velocity String (121 characters):**
   `CRD:F8B3B7422B01,ITRF2020,EP=2026.50,XYZ=4201275.539,172405.660,4779878.169,V=-12.949,+17.753,+10.544,S95=5.0mm,IAR=99.8%`
 
 ### 6.2 Proprietary Binary Channel: GEODNET RTCM Type 4054
 Uses GEODNET's assigned proprietary RTCM ID **4054** with a standard header (`ver:3`, `subtype:9`) matching the RTKLIB `decode_type4054` specification:
 * **Subtype 1: Geoid Undulation & Vertical Datum (14 bytes total over wire):**
-  Signed 20-bit millimeter geoid undulation $N$ ($\pm 524.287\text{ m}$ range at $1.0\text{ mm}$ resolution) + 8-bit Vertical Datum ID (NAVD88, CGVD2013, ODN, IGN69, DHHN2016, AHD, NZVD2016, Tokyo Peil, NAP, REDNAP, LN02, EGM2008).
+  Signed 20-bit millimeter geoid undulation $N$ ($\pm 524.287\text{ m}$ range at $1.0\text{ mm}$ resolution) + 8-bit Vertical Datum ID (NAVD88, CGVD2013, ODN, IGN69, DHHN2016, AHD, NZVD2016, Tokyo Peil, NAP, REDNAP, LN02, RH2000, DVR90, EGM2008, EGM96).
 * **Subtype 2: Station Coordinate, Tectonic Velocity & Quality Metadata (57 bytes total over wire):**
   Carries the full 12-character station identifier (96 bits), coordinate system code, observation date (Year, Month, Day), reference epoch, 38-bit ECEF $X, Y, Z$ at $0.1\text{ mm}$ resolution (RTCM 1005 standard), signed 20-bit tectonic plate velocities $V_x, V_y, V_z$ at **$0.001\text{ mm/year}$ ($1\text{ \mu m/year}$)** resolution (bounded to $\pm 524.287\text{ mm/year}$ for Earth plate tectonic motions), 12-bit 95% sigmas ($0.1\text{ mm}$ resolution), 10-bit integer ambiguity resolution fix rate (`iar`, $0.1\%$ resolution), and CRC-24Q parity.
 

@@ -227,10 +227,10 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 | 3. RTCM Real-Time Broadcast to Rover                                                               |
 |    • Channel A: RTCM Type 1029 (Unicode Text Message)                                              |
 |      -> Standard RTCM3 string displayed/logged by all survey controllers (Trimble, Leica, Carlson) |
-|      -> Payload: "GEOID:N=-17.111m,H=1667.111m,NAVD88,GEOID18"                                    |
+|      -> Payload: "GEOID:N=-17.111m,H=1667.111m,NOAA GEOID18 (1-arcmin CONUS)"                     |
 |                                                                                                    |
 |    • Channel B: GEODNET Proprietary RTCM Message (Type 4054)                                       |
-|      -> Ultra-compact 13-byte binary frame (12-bit station, 20-bit N in mm, 8-bit datum code)      |
+|      -> Ultra-compact 14-byte binary frame (12-bit station, 20-bit N in mm, 8-bit datum code)      |
 |      -> Direct hardware consumption for auto-leveling, autonomous machines, and GEODNET SDK        |
 +----------------------------------------------------------------------------------------------------+
 ```
@@ -246,7 +246,7 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
   * DF041 / DF042: Epoch time (MJD 16 bits, Seconds of Day 17 bits)
   * DF138: Number of Characters (7 bits)
   * DF139: Number of UTF-8 Code Units (8 bits)
-  * DF140: UTF-8 Text String: `"GEOID:N=+43.802m,H=36.198m,IGN69,RAF18"`
+  * DF140: UTF-8 Text String: `"GEOID:N=+43.802m,H=36.198m,IGN France RAF (France/Corsica)"`
   * CRC-24Q Parity: 24 bits
 
 #### B. GEODNET Proprietary RTCM Message (Type 4054)
@@ -260,7 +260,7 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 * **Subtype ID:** `1`
 * **Station ID:** 12 bits
 * **Undulation ($N$) in millimeters:** signed 20 bits (range $\pm 524.287\text{ m}$, resolution $1.0\text{ mm}$)
-* **Vertical Datum ID:** 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 50=EGM2008)
+* **Vertical Datum ID:** 8 bits (e.g. 1=NAVD88, 2=CGVD2013, 3=ODN, 4=IGN69, 5=DHHN2016, 6=AHD, 7=NZVD2016, 8=Tokyo Peil, 9=NAP, 10=REDNAP, 11=LN02, 12=RH2000, 13=DVR90, 50=EGM2008, 51=EGM96)
 * **CRC-24Q:** 24 bits
 
 ##### Subtype 2: ITRF2020 Coordinate Info, Velocity & Quality Metadata (57 bytes total)
@@ -277,7 +277,7 @@ In the **GEODNET RTK Service architecture**, the server hosts the complete libra
 * **Align Padding:** 3 bits (total 51 bytes payload)
 * **CRC-24Q:** 24 bits
 
-Also emitted via standard **RTCM 1029 Text Message** (122 characters):
+Also emitted via standard **RTCM 1029 Text Message** (121 characters):
 `CRD:F8B3B7422B01,ITRF2020,EP=2026.50,XYZ=4201275.539,172405.660,4779878.169,V=-12.949,+17.753,+10.544,S95=5.0mm,IAR=99.8%`
 
 ---
