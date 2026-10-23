@@ -1,6 +1,6 @@
 # GEODNET RTK Service Coordinate Systems
 
-**Document status:** Public service reference, updated 2026-09-03
+**Document status:** Public service reference, updated 2026-10-23
 
 GEODNET provides global and regional coordinate outputs through NTRIP mountpoints. This document records the coordinate frame and coordinate epoch configured by the service. It also distinguishes a frame transformation from a complete national datum realization.
 
@@ -18,6 +18,8 @@ The service outputs Earth-centered Earth-fixed or geodetic coordinates with elli
 | `AUTO_ITRF2014` | ITRF2014 at the observation epoch. |
 | `AUTO_WGS84` | Legacy WGS84(G2139) output at the midpoint of the observation year. See Section 4. |
 | `BRDC` | Broadcast ephemeris data; this is not a coordinate-frame output. |
+| `AUTO_NAD83CSRS_PROV` | **Planned release.** Canadian stations only: NAD83(CSRS)v8 at the provincial reference epoch of Section 2.1 instead of the common epoch 2010.0. Other stations follow `AUTO`. Mountpoint name is provisional. |
+| `AUTO_GDA94` | **Planned release.** Australian stations only: GDA94 at epoch 1994.0 instead of GDA2020. Other stations follow `AUTO`. Mountpoint name is provisional. |
 | `NATRF2022` | North America plate-fixed test service using NATRF2022. Confirm the coordinate epoch in service metadata. |
 | `SIRGAS2000(YYYY.5)` | South America test service using SIRGAS2000 at the midpoint of the named year. |
 
@@ -34,7 +36,7 @@ Mountpoint availability and coverage are operational service properties and may 
 | 3 | Guam and Northern Mariana Islands | `GUM`, `MNP` | `NAD83(MA11)(2010.00)` | NAD83(MA11), epoch 2010.0 | NGS transformation [R2]. |
 | 4 | American Samoa | `ASM` | `NAD83(PA11)(2010.00)` | NAD83(PA11), epoch 2010.0 | NGS plate assignment [R2]. |
 | 5 | Puerto Rico and U.S. Virgin Islands | `PRI`, `VIR` | `NAD83(2011)(2010.00)` | NAD83(2011), epoch 2010.0 | Production default during NSRS modernization. CATRF2022 remains a separate experimental transformation [R2, R31]. |
-| 6 | Canada | `CAN` | `NAD83(CSRS)v8(2010.00)` | NAD83(CSRS)v8, epoch 2010.0 | EPSG operation 10415 at the common epoch; propagation uses station velocity, not NAD83v80VG [R4, R5]. |
+| 6 | Canada | `CAN` | `NAD83(CSRS)v8(2010.00)` | NAD83(CSRS)v8, epoch 2010.0 | EPSG operation 10415 at the common epoch. When no station velocity is supplied, the velocity comes from the NRCan NAD83v80VG grid. Provincial epochs are available in the planned `AUTO_NAD83CSRS_PROV` mountpoint (Section 2.1) [R4, R5]. |
 | 7 | Mexico | `MEX` | `ITRF2008(2010.00)` | ITRF2008, epoch 2010.0 | Configured to the RGNA reference frame; validate against current INEGI products [R16]. |
 | 8 | Costa Rica | `CRI`, `COS` | `CR-SIRGAS(2014.59)` | ITRF2008/IGb08, epoch 2014.59 | Official reference epoch; distinct from the operational ITRF2014 epoch 2019.24 [R7, R17]. |
 | 9 | Panama | `PAN` | `SIRGAS-Panama(2011.60)` | ITRF2008, epoch 2011.6 | National realization listed by SIRGAS [R7]. |
@@ -46,7 +48,7 @@ Mountpoint availability and coverage are operational service properties and may 
 | 15 | Italy | `ITA` | `ETRF2000(2008.00)` | RDN2008 basis, epoch 2008.0 | National realization basis [R8]. |
 | 16 | Iceland | `ISL` | `ISN2016-approx(2016.50)` | IGS14, epoch 2016.5 | Linear approximation; the Icelandic deformation treatment is not implemented [R6]. |
 | 17 | Turkey | `TUR` | `ITRF96(2005.00)` | TUREF/ITRF96, epoch 2005.0 | Earthquake deformation requires authority treatment [R19]. |
-| 18 | Australia | `AUS` | `GDA2020(2020.00)` | ITRF2014, epoch 2020.0 | Validate plate-motion handling for official work [R20]. |
+| 18 | Australia | `AUS` | `GDA2020(2020.00)` | ITRF2014, epoch 2020.0 | Validate plate-motion handling for official work. GDA94 (1994.0) is offered separately in the planned `AUTO_GDA94` mountpoint (Section 2.2) [R20]. |
 | 19 | New Zealand | `NZL` | `NZGD2000-approx(2000.00)` | ITRF96, epoch 2000.0 | Linear approximation; LINZ deformation and earthquake patches are not implemented [R11]. |
 | 20 | Japan | `JPN` | `JGD2011-approx(2011.39)` | ITRF2008, epoch 2011-05-24 | Approximation to JGD2011. GSI introduced JGD2024 on 2025-04-01 [R14]. |
 | 21 | China | `CHN` | `CGCS2000(2000.00)` | ITRF97, epoch 2000.0 | Defining alignment; does not cover Hong Kong or Macao local systems [R21]. |
@@ -68,6 +70,22 @@ Mountpoint availability and coverage are operational service properties and may 
 | 37 | Hong Kong | `HKG` | `HK-SatRef-approx(1998.32877)` | ITRF96 at 1998:121 (May 1, 1998) | Linear frame-and-epoch approximation pending SatRef control validation; not HK1980 Grid or HKPD height [R32]. |
 | 38 | Macao | `MAC` | `Macao-ITRF2005-approx(2008.37568)` | ITRF2005, epoch 2008.37568 | Linear approximation pending MoSRef control validation; not Macao Grid. Uses the authority's published decimal epoch [R33, R34]. |
 | 39 | Remaining three-character codes | Other | `WGS84(G2139)(observation-year.50)` | ITRF2014-equivalent legacy fallback | Global fallback, not the country's official datum. Missing or non-three-character codes are rejected. |
+
+### 2.1 Canada: provincial NAD83(CSRS) epochs (planned `AUTO_NAD83CSRS_PROV`)
+
+Canadian jurisdictions historically adopted different NAD83(CSRS) reference epochs. This planned mountpoint selects the epoch from the station location; the frame is otherwise the same NAD83(CSRS)v8 output as row 6.
+
+| Region | Epoch | Configured output |
+|:---|:---:|:---|
+| B.C. Vancouver Island, Quebec, New Brunswick | 1997.0 | `NAD83(CSRS)v8(1997.00)` |
+| B.C. Mainland, Yukon | 2002.0 | `NAD83(CSRS)v8(2002.00)` |
+| Ontario, Alberta, Manitoba and all other regions | 2010.0 | `NAD83(CSRS)v8(2010.00)` |
+
+Regions are chosen from approximate boundary polygons, so a station close to a provincial border may be assigned to the neighbouring region. Provinces and territories not named above (for example Nova Scotia and Saskatchewan) currently use 2010.0; confirm against the responsible provincial authority before relying on it for legal work.
+
+### 2.2 Australia: GDA94 at epoch 1994.0 (planned `AUTO_GDA94`)
+
+This planned mountpoint reports Australian stations in GDA94 (`GDA94(1994.00)`). GDA2020 coordinates are converted to GDA94 with the ICSM conformal and distortion NTv2 grid (about 1.5 m horizontal shift), and the ellipsoidal height change (about +0.09 m) from the ICSM 7-parameter transformation [R35, R36]. GDA94 is a static datum, so the epoch is nominal. The output was checked against the Geoscience Australia GDA2020 to GDA94 calculator at four cities (horizontal differences under 3 mm, heights equal to the millimetre); that calculator uses the 7-parameter transformation only, so it does not test the grid's distortion correction. If the grid is unavailable the converter falls back to GDA2020.
 
 ## 3. Country-specific SIRGAS outputs
 
@@ -137,6 +155,8 @@ The country code controls routing. A country code indicates jurisdiction, not ne
 - **[R32] Hong Kong Lands Department**, [SatRef coordinate list](https://www.geodetic.gov.hk/common/data/pdf/SatRef_Coord.pdf) - ITRF96 at epoch 1998:121; HK1980 Grid requires the published local transformation.
 - **[R33] Macao mapping authority**, [Geodetic datum explanatory notes, Appendix 1](https://www.dscc.gov.mo/files/geographical_geodetic_control/ENG/Macaucoord_2009_web_EN_v201702.pdf) - ITRF2005 at published epoch 2008.37568. The legacy DSCC website is migrating to DSSCU.
 - **[R34] Macao MoSRef / Hong Kong Lands Department**, [MoSRef coordinate list, 2024-12-03](https://www.geodetic.gov.hk/common/data/SatRef/MoSRef%20Coordinate%20List_20241203.pdf) and [Hong Kong-Macao transformation with a check example](https://www.geodetic.gov.hk/common/data/parameter/7P_HK_Macao_2012_en.pdf).
+- **[R35] ICSM**, [GDA94 to GDA2020 conformal and distortion NTv2 grid](https://cdn.proj.org/au_icsm_GDA94_GDA2020_conformal_and_distortion.tif) (PROJ-data conversion, CC BY 4.0) - horizontal GDA94 to GDA2020 offsets.
+- **[R36] ICSM / EPSG**, [GDA2020 Technical Manual](https://www.icsm.gov.au/gda2020-and-gda94-technical-manuals) and [EPSG:8048 GDA94 to GDA2020 (1)](https://epsg.io/8048) - 7-parameter transformation.
 
 ## 6. Real-Time RTCM Coordinate and Geoid Broadcast Services
 
